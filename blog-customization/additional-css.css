@@ -1,0 +1,50 @@
+/*
+ * ============================================================
+ * HELIUM LEARN — BLOG HEADER REMOVAL CSS
+ * ============================================================
+ * HOW TO ADD THIS:
+ *   WordPress Admin → Appearance → Customize → Additional CSS
+ *   Paste the code below and click "Publish".
+ *
+ * This hides the WordPress theme header on ALL blog pages.
+ * It does NOT affect the main heliumlearn.com website.
+ * ============================================================
+ */
+
+/* --- Hide the theme header and navigation --- */
+.site-header,
+header.site-header,
+#masthead,
+#header,
+.header,
+.navbar,
+.nav-bar,
+.main-navigation,
+#site-navigation,
+#primary-navigation,
+.header-main,
+.site-branding {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+/* --- Remove any top padding/margin the theme added for a fixed header --- */
+body,
+.site,
+#page,
+#content,
+.content-area {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* --- Ensure the blog content starts at the top of the page --- */
+.site-content,
+#primary,
+.entry-content,
+.content-wrapper {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}

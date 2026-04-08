@@ -125,7 +125,8 @@ require("header.php");
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.4057882499674!2d83.18028077541014!3d26.05299157717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991bd001852ec57%3A0xf4a9721757eb2d6d!2sHelium%3A%20IIT-JEE%20NEET-UG%20Foundation!5e0!3m2!1sen!2sin!4v1751365179793!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
+  </div>
   </section>
   <?php include 'footer.php' ?>
 
-    	
+        

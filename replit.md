@@ -37,3 +37,11 @@ php -S 0.0.0.0:5000 -t public_html
 ## Deployment
 - Target: **autoscale**
 - Run command: `php -S 0.0.0.0:5000 -t public_html`
+
+## Known Fixes Applied
+- Added all missing JS plugins to `footer.php` (easing, wow, scrollUp, magnific-popup, counterup, niceselect, steller, gmaps)
+- Added `owl-carousel.js` and `owl-carousel.css` which were missing but referenced by `main.js`
+- Removed `window.onload` auto-popup that was incorrectly showing the Register form on every page
+- Added null guards in `footer.php` for page-specific elements (carouselTrack, register-form2, enquiry-form, countdown, Swiper)
+- Added `#map` null check in `main.js` to prevent GMaps crash on pages without a map element
+- Fixed unclosed `<div class="container-fluid">` in `contact-us.php`

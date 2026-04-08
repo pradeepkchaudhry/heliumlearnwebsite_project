@@ -327,10 +327,6 @@ if (registerForm2) registerForm2.addEventListener("submit", function (e) {
                     document.getElementById("loginForm").style.display = "none";
                 }
 
-            window.onload = function() {
-                document.getElementById("loginForm").style.display = "block"; // Show the popup
-            };
-
             function closeLoginForm() {
                 document.getElementById("loginForm").style.display = "none"; // Hide the popup
             }
@@ -353,6 +349,7 @@ if (registerForm2) registerForm2.addEventListener("submit", function (e) {
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
         <script>
+        if (document.querySelector('.youtube-slider')) {
            const swiper = new Swiper('.youtube-slider', {
             slidesPerView: 3,
             spaceBetween: 20,
@@ -377,12 +374,21 @@ if (registerForm2) registerForm2.addEventListener("submit", function (e) {
             },
             },
         });
+        }
         </script>
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery-migrate-3.0.0.js"></script>
         <script src="js/jquery-ui.min.js"></script>
+        <script src="js/easing.js"></script>
         <script src="js/slicknav.min.js"></script>
         <script src="js/owl-carousel.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/niceselect.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/steller.js"></script>
+        <script src="js/gmaps.min.js"></script>
         <script src="js/main.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>

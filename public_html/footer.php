@@ -4,20 +4,20 @@
 </div>
 
 <footer id="footer" class="footer ">
-    		<div class="footer-top">
-    			<div class="container">
-    				<div class="row">
-    					<div class="col-lg-3 col-md-12 col-12">
-        						<div class="single-footer">
-        							<h2>About Us</h2>
+                <div class="footer-top">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-lg-3 col-md-12 col-12">
+                                                        <div class="single-footer">
+                                                                <h2>About Us</h2>
                                     <p>At Helium, we believe that every aspiring doctor and engineer deserves the best guidance. That’s why we bring you a world-class learning experience designed by IIT alumni and MBBS professionals to ensure your success in IIT-JEE & NEET.</p>
-        							<ul class="social">
-        								<li><a href="https://rb.gy/g43lg4"><i class="icofont-facebook"></i></a></li>
-        								<li><a href=" https://rb.gy/nl0g8s"><i class="icofont-youtube"></i></a></li>
-        								<li><a href="https://rb.gy/ev893a"><i class="icofont-instagram"></i></a></li>
-        								<li><a href="https://t.me/heliumlearn"><i class="icofont-telegram"></i></a></li>
-        								<li><a href="https://www.linkedin.com/company/heliumlearn/"><i class="icofont-linkedin"></i></a></li>
-        							</ul>
+                                                                <ul class="social">
+                                                                        <li><a href="https://rb.gy/g43lg4"><i class="icofont-facebook"></i></a></li>
+                                                                        <li><a href=" https://rb.gy/nl0g8s"><i class="icofont-youtube"></i></a></li>
+                                                                        <li><a href="https://rb.gy/ev893a"><i class="icofont-instagram"></i></a></li>
+                                                                        <li><a href="https://t.me/heliumlearn"><i class="icofont-telegram"></i></a></li>
+                                                                        <li><a href="https://www.linkedin.com/company/heliumlearn/"><i class="icofont-linkedin"></i></a></li>
+                                                                </ul>
                                     <div class="extra-links text-center">
                                         <a href="https://play.google.com/store/apps/details?id=com.helium.app" target="_blank">
                                             <img src="img/playstore.png" alt="Play Store" style="width:160px; height:45;">
@@ -27,25 +27,25 @@
                                         </a>
                                     </div>
                                     
-        						</div>
-    					</div>
-    					<div class="col-lg-3 col-md-12 col-12">
-    						<div class="single-footer f-link pl-70">
-    							<h2>Quick Links</h2>
-    							<ul>
+                                                        </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-12 col-12">
+                                                <div class="single-footer f-link pl-70">
+                                                        <h2>Quick Links</h2>
+                                                        <ul>
                                     <li><a href="https://heliumlearn.com"><i class="fa fa-caret-right" aria-hidden="true"></i>Home </a></li>
                                     <li><a href="/about"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us </a></li>
                                     <li><a href="/register-now"><i class="fa fa-caret-right" aria-hidden="true"></i>Register Now </a></li>
-    								<li><a href="Helium__pp.pdf"><i class="fa fa-caret-right" aria-hidden="true"></i>Privacy Policy </a></li>
-    								<li><a href="Helium_TC.pdf"><i class="fa fa-caret-right" aria-hidden="true"></i>Terms & Conditions</a></li>
-    							</ul>
-    						</div>
-    					</div>
-    					<div class="col-lg-3 col-md-12 col-12">
-    						<div class="single-footer f-link">
-    							<h2>Our Course</h2>
-    							<ul>
-    							    <li><a href="/11th-neet-foundation"><i class="fa fa-caret-right" aria-hidden="true"></i> Class 11th NEET Foundation</a></li>	
+                                                                <li><a href="Helium__pp.pdf"><i class="fa fa-caret-right" aria-hidden="true"></i>Privacy Policy </a></li>
+                                                                <li><a href="Helium_TC.pdf"><i class="fa fa-caret-right" aria-hidden="true"></i>Terms & Conditions</a></li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-12 col-12">
+                                                <div class="single-footer f-link">
+                                                        <h2>Our Course</h2>
+                                                        <ul>
+                                                            <li><a href="/11th-neet-foundation"><i class="fa fa-caret-right" aria-hidden="true"></i> Class 11th NEET Foundation</a></li>        
                                     <li><a href="/12th-neet-foundation"><i class="fa fa-caret-right" aria-hidden="true"></i> Class 12th NEET Foundation</a></li>   
                                     <li><a href="/12th-neet-target"><i class="fa fa-caret-right" aria-hidden="true"></i> NEET 12th+ (Repeaters) Target</a></li>
                                     <li><a href="/11th-iit-jee-foundation"><i class="fa fa-caret-right" aria-hidden="true"></i> Class 11th IIT-JEE Foundation</a></li> 
@@ -53,11 +53,11 @@
                                     <li><a href="/12th-iit-jee-target"><i class="fa fa-caret-right" aria-hidden="true"></i> IIT-JEE 12th+ (Repeaters) Target</a></li> 
                                     <li><a href="/9th-foundation"><i class="fa fa-caret-right" aria-hidden="true"></i> Class 9th Foundation</a></li> 
                                     <li><a href="/10th-foundation"><i class="fa fa-caret-right" aria-hidden="true"></i> Class 10th Foundation</a></li>     
-    							</ul>
-    						</div>
-    					</div>
-    					<div class="col-lg-3 col-md-12 col-12">
-    						<div class="single-footer f-link">
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-12 col-12">
+                                                <div class="single-footer f-link">
                                 <h2>Visit Our AI-Powered Branches</h2>
 
                                 <div class="footer-contact">
@@ -80,22 +80,22 @@
                                 </div>
                             </div>
 
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="copyright">
-    			<div class="container">
-    				<div class="row">
-    					<div class="col-lg-12 col-md-12 col-12">
-    						<div class="copyright-content">
-    							<p>© Copyright 2025  |  All Rights Reserved </p>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</footer>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="copyright">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-12">
+                                                <div class="copyright-content">
+                                                        <p>© Copyright 2025  |  All Rights Reserved </p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </footer>
 
 <script>
 
@@ -131,6 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
      document.addEventListener("DOMContentLoaded", function () {
     const track = document.getElementById('carouselTrack');
+    if (!track) return;
     const items = track.children;
     const visibleItems = 4;
 
@@ -205,7 +206,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.getElementById("register-form2").addEventListener("submit", function (e) {
+var registerForm2 = document.getElementById("register-form2");
+if (registerForm2) registerForm2.addEventListener("submit", function (e) {
             e.preventDefault(); // Prevent default form submission
 
             const form = e.target;
@@ -256,9 +258,11 @@ document.getElementById("register-form2").addEventListener("submit", function (e
     }
 
     // Always set to 10 days from now
-    let now = new Date();
-    let discountEndDate = new Date(now.getTime() + 10 * 24 * 60 * 60 * 1000).getTime();
-    startCountdown(discountEndDate);
+    if (document.getElementById("days")) {
+        let now = new Date();
+        let discountEndDate = new Date(now.getTime() + 10 * 24 * 60 * 60 * 1000).getTime();
+        startCountdown(discountEndDate);
+    }
 
 
 
@@ -286,7 +290,8 @@ document.getElementById("register-form2").addEventListener("submit", function (e
 
 
 
-            document.getElementById("enquiry-form").addEventListener("submit", function(event) {
+            var enquiryForm = document.getElementById("enquiry-form");
+            if (enquiryForm) enquiryForm.addEventListener("submit", function(event) {
                 event.preventDefault(); // Prevent the default form submission
 
                 // Show the thank-you message at the bottom of the form
@@ -374,11 +379,12 @@ document.getElementById("register-form2").addEventListener("submit", function (e
         });
         </script>
         <script src="js/jquery.min.js"></script>
-    	<script src="js/jquery-migrate-3.0.0.js"></script>
-    	<script src="js/jquery-ui.min.js"></script>
-    	<script src="js/slicknav.min.js"></script>
-    	<script src="js/main.js"></script>
-    	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+        <script src="js/jquery-migrate-3.0.0.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/slicknav.min.js"></script>
+        <script src="js/owl-carousel.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" ></script>
     </body>

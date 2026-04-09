@@ -1,0 +1,104 @@
+Build a highly structured, SEO-friendly “Why Helium Is Different” section for the HeliumLearn website.
+
+Business goal:
+Show that Helium is not just another EdTech platform that only completes syllabus. Helium focuses on 360° student success through personalization, real feedback, AI behaviour analysis, structured learning strategy, monitored progress, time management, and rewards.
+
+Core message:
+Most EdTech platforms sell content and classes. Helium solves the real problems behind low performance:
+- lack of personalization
+- lack of real feedback
+- weak time management
+- poor learning strategy
+- no visible reward system
+- no monitored improvement process
+
+What Helium does differently:
+- personalized learning content
+- real mentorship + feedback from expert teachers
+- AI Behaviour Analysis that identifies mistakes, weak areas, and improvement patterns
+- structured learning strategy
+- monitored learning process
+- time management support
+- progress-based recognition and rewards
+- student-first 360° improvement instead of syllabus-only teaching
+
+Required section structure:
+1. Hero block
+   - H1: “Helium understands how students actually improve”
+   - Short subheading explaining that Helium is built around student growth, not just course completion
+   - Primary CTA: Download App
+   - Secondary CTA: Book Free Counselling
+
+2. Problem cards
+   Create 6 cards explaining student pain points:
+   - Need personalization
+   - Need real feedback
+   - Mistakes in time management
+   - Need learning strategy
+   - Need rewards on achievements
+   - Need a clear process for getting results
+
+3. Solution cards
+   Match each problem with a Helium solution:
+   - Personalized content
+   - Weekly mentorship + expert feedback
+   - AI Behaviour Analysis
+   - Structured learning strategy
+   - Recognition / progress rewards
+   - Monitored improvement process
+
+4. “How Helium Works” infographic
+   Create a 5-step visual flow:
+   Diagnose → Personalize → Practice → Review → Improve
+   Each step should have a short explanation.
+
+5. Difference section
+   Include a side-by-side comparison:
+   - Traditional EdTech: syllabus completion, one-size-fits-all, weak feedback
+   - Helium: personalised learning, monitored progress, behaviour insights, improvement system
+
+6. Trust and proof block
+   Add icons or micro-statements for:
+   - expert faculty
+   - Helium App
+   - AI Behaviour Analysis
+   - weekly mentorship
+   - test series
+   - outcomes focus
+
+Design requirements:
+- premium startup-style UI
+- clean cards
+- strong spacing
+- mobile-first responsive layout
+- visually simple enough for students to understand in 5 seconds
+- add infographic feeling with arrows, progress steps, or connected nodes
+- use subtle AI feel: glowing lines, data-flow visuals, progress indicators, but keep it readable
+- add hover states and soft shadows
+- avoid clutter
+
+SEO requirements:
+- Use semantic HTML headings
+- Include keywords naturally:
+  Helium App, AI Behaviour Analysis, personalised learning, weekly mentorship, expert teachers, test series, online coaching, IIT-JEE, NEET-UG, foundation classes
+- Add alt text for any illustrations/icons
+- Make copy indexable and easy to understand
+- Write short, clear subheadings with searchable intent
+
+Tone:
+- student-friendly
+- trustworthy
+- modern
+- motivational
+- not overhyped
+- clear and conversion-focused
+
+Important rules:
+- Do not claim unverified results
+- Do not use fake statistics
+- Do not make it look like generic AI marketing
+- Focus on how Helium solves real student problems step by step
+- Keep the message: Helium is a 360° learning system, not just a syllabus delivery platform
+
+Output:
+Create the full section with reusable components and polished copy.

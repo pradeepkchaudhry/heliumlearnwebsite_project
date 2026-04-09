@@ -273,6 +273,218 @@ require "header.php";
   </div>
 </section>
 
+<!-- ===== WHY HELIUM IS DIFFERENT ===== -->
+<section class="why-section" aria-labelledby="why-heading">
+  <div class="container" style="position:relative;z-index:1;">
+
+    <div class="section-title">
+      <span class="section-badge"><i class="fa fa-bolt me-1"></i> Why Helium Is Different</span>
+      <h2 id="why-heading">Built for student growth — <span>not just syllabus completion</span></h2>
+      <p>Most EdTech platforms sell content and classes. Helium solves the real problems behind low performance: weak strategy, no feedback, no personalization, no system.</p>
+    </div>
+
+    <!-- ── 1. Problem → Solution Cards ── -->
+    <div class="ps-grid" role="list" aria-label="Student problems and Helium solutions">
+
+      <div class="ps-card" role="listitem">
+        <div class="ps-problem">
+          <i class="fa fa-times-circle" aria-hidden="true"></i>
+          <p>Students struggle because content is the same for everyone — no personalization based on how each student actually learns.</p>
+        </div>
+        <div class="ps-solution">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <div class="ps-solution-body">
+            <h5>Personalised Learning Content</h5>
+            <p>Helium App adapts to each student's pace, gaps, and learning patterns — not a generic batch-style syllabus delivery.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ps-card" role="listitem">
+        <div class="ps-problem">
+          <i class="fa fa-times-circle" aria-hidden="true"></i>
+          <p>Students rarely get direct, honest feedback on where they are going wrong — only marks and ranks, not actionable insights.</p>
+        </div>
+        <div class="ps-solution">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <div class="ps-solution-body">
+            <h5>Weekly Mentorship &amp; Expert Feedback</h5>
+            <p>Every student gets weekly 1:1 mentorship sessions with expert teachers who provide real, specific feedback on performance.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ps-card" role="listitem">
+        <div class="ps-problem">
+          <i class="fa fa-times-circle" aria-hidden="true"></i>
+          <p>Most students waste hours studying the wrong topics, repeating what they already know instead of targeting actual weak areas.</p>
+        </div>
+        <div class="ps-solution">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <div class="ps-solution-body">
+            <h5>AI Behaviour Analysis</h5>
+            <p>Helium's AI tracks how you study, identifies your mistakes and weak patterns, and guides you to focus where it counts most.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ps-card" role="listitem">
+        <div class="ps-problem">
+          <i class="fa fa-times-circle" aria-hidden="true"></i>
+          <p>Without a structured plan, students jump between topics, lose consistency, and approach exams without a clear learning strategy.</p>
+        </div>
+        <div class="ps-solution">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <div class="ps-solution-body">
+            <h5>Structured Learning Strategy</h5>
+            <p>Helium gives every student a clear, phased preparation roadmap — concept building, practice, revision, and mock testing in order.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ps-card" role="listitem">
+        <div class="ps-problem">
+          <i class="fa fa-times-circle" aria-hidden="true"></i>
+          <p>Students lose motivation when effort isn't recognised — no visible progress milestones, no sense of growing toward the goal.</p>
+        </div>
+        <div class="ps-solution">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <div class="ps-solution-body">
+            <h5>Progress Recognition &amp; Rewards</h5>
+            <p>Helium tracks improvement milestones and celebrates progress, keeping students motivated through every stage of preparation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ps-card" role="listitem">
+        <div class="ps-problem">
+          <i class="fa fa-times-circle" aria-hidden="true"></i>
+          <p>Students study hard but improve slowly because no one monitors whether their process — not just their marks — is actually improving.</p>
+        </div>
+        <div class="ps-solution">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <div class="ps-solution-body">
+            <h5>Monitored Improvement Process</h5>
+            <p>Helium monitors the full learning process — accuracy, speed, consistency, and habits — so improvement is systematic, not accidental.</p>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- .ps-grid -->
+
+    <!-- ── 2. How Helium Works ── -->
+    <div class="hw-flow" aria-label="How Helium works — 5-step process">
+      <div class="section-title" style="margin-bottom:40px;">
+        <span class="section-badge"><i class="fa fa-route me-1"></i> The Helium Process</span>
+        <h3 style="color:#fff;font-size:26px;margin-bottom:10px;">How Helium turns effort into results</h3>
+        <p style="color:rgba(255,255,255,.6);font-size:15px;">A 360° improvement system — not just content delivery</p>
+      </div>
+      <div class="hw-steps">
+
+        <div class="hw-step">
+          <div class="hw-step-icon" aria-hidden="true">
+            <i class="fa fa-stethoscope"></i>
+            <span class="hw-step-num">1</span>
+          </div>
+          <h4>Diagnose</h4>
+          <p>AI Behaviour Analysis identifies your weak areas, study habits, and where you're losing marks.</p>
+        </div>
+
+        <div class="hw-step">
+          <div class="hw-step-icon" aria-hidden="true">
+            <i class="fa fa-sliders-h"></i>
+            <span class="hw-step-num">2</span>
+          </div>
+          <h4>Personalise</h4>
+          <p>Your mentor builds a personalised strategy — specific to your exam, gaps, and timeline.</p>
+        </div>
+
+        <div class="hw-step">
+          <div class="hw-step-icon" aria-hidden="true">
+            <i class="fa fa-pencil-alt"></i>
+            <span class="hw-step-num">3</span>
+          </div>
+          <h4>Practice</h4>
+          <p>Live classes, daily DPPs, and All-India mock tests to build speed, accuracy, and exam confidence.</p>
+        </div>
+
+        <div class="hw-step">
+          <div class="hw-step-icon" aria-hidden="true">
+            <i class="fa fa-chart-line"></i>
+            <span class="hw-step-num">4</span>
+          </div>
+          <h4>Review</h4>
+          <p>Detailed post-mock analysis with expert teachers pinpoints exactly what to fix next.</p>
+        </div>
+
+        <div class="hw-step">
+          <div class="hw-step-icon" aria-hidden="true" style="background:linear-gradient(135deg,var(--primary),#0ea5e9);">
+            <i class="fa fa-trophy"></i>
+            <span class="hw-step-num">5</span>
+          </div>
+          <h4>Improve</h4>
+          <p>Consistent feedback loops, mentorship, and tracked milestones drive measurable, visible progress.</p>
+        </div>
+
+      </div>
+    </div><!-- .hw-flow -->
+
+    <!-- ── 3. Comparison Table ── -->
+    <div class="section-title" style="margin-bottom:28px;">
+      <h3 style="color:#fff;font-size:24px;margin-bottom:8px;">Helium vs Traditional EdTech</h3>
+      <p style="color:rgba(255,255,255,.55);font-size:14px;">Why content alone isn't enough to crack IIT-JEE or NEET-UG</p>
+    </div>
+    <div class="compare-wrap" role="table" aria-label="Comparison between traditional EdTech and Helium">
+      <div class="compare-col-head cc-old" role="columnheader">
+        <i class="fa fa-times me-2"></i> Traditional EdTech
+      </div>
+      <div class="compare-col-head cc-new" role="columnheader">
+        <i class="fa fa-bolt"></i> Helium Learn
+      </div>
+
+      <div class="compare-row" role="row">
+        <div class="compare-cell cc-old" role="cell"><i class="fa fa-times-circle"></i> Syllabus completion is the only goal</div>
+        <div class="compare-cell cc-new" role="cell"><i class="fa fa-check-circle"></i> 360° student improvement — process, habits, and outcomes</div>
+      </div>
+      <div class="compare-row" role="row">
+        <div class="compare-cell cc-old" role="cell"><i class="fa fa-times-circle"></i> Same content for every student</div>
+        <div class="compare-cell cc-new" role="cell"><i class="fa fa-check-circle"></i> Personalised learning based on each student's actual gaps</div>
+      </div>
+      <div class="compare-row" role="row">
+        <div class="compare-cell cc-old" role="cell"><i class="fa fa-times-circle"></i> Feedback limited to test scores and ranks</div>
+        <div class="compare-cell cc-new" role="cell"><i class="fa fa-check-circle"></i> Weekly 1:1 mentorship with specific, actionable feedback</div>
+      </div>
+      <div class="compare-row" role="row">
+        <div class="compare-cell cc-old" role="cell"><i class="fa fa-times-circle"></i> No visibility into how a student studies</div>
+        <div class="compare-cell cc-new" role="cell"><i class="fa fa-check-circle"></i> AI Behaviour Analysis monitors patterns, mistakes, and habits</div>
+      </div>
+      <div class="compare-row" role="row">
+        <div class="compare-cell cc-old" role="cell"><i class="fa fa-times-circle"></i> No structured plan — student figures it out alone</div>
+        <div class="compare-cell cc-new" role="cell"><i class="fa fa-check-circle"></i> A structured, mentor-guided learning strategy from day one</div>
+      </div>
+      <div class="compare-row" role="row">
+        <div class="compare-cell cc-old" role="cell"><i class="fa fa-times-circle"></i> Progress is invisible until exam day</div>
+        <div class="compare-cell cc-new" role="cell"><i class="fa fa-check-circle"></i> Tracked milestones and progress recognition throughout the journey</div>
+      </div>
+    </div><!-- .compare-wrap -->
+
+    <!-- Bottom CTA -->
+    <div class="why-cta">
+      <a href="https://play.google.com/store/apps/details?id=com.helium.app"
+         class="btn-hl-primary" target="_blank" rel="noopener"
+         onclick="gtag('event','app_download_click',{source:'why-helium'})">
+        <i class="fab fa-google-play"></i> Download Helium App — Free
+      </a>
+      <a href="https://calendar.app.google/shqrSfQdoPj4YaLVA"
+         class="btn-hl-outline-white" target="_blank" rel="noopener"
+         onclick="gtag('event','counselling_click',{source:'why-helium'})">
+        <i class="fa fa-calendar"></i> Book Free Counselling
+      </a>
+    </div>
+
+  </div>
+</section>
+
 <!-- ===== TESTIMONIALS ===== -->
 <section class="testimonials-section" aria-label="Student Success Stories">
   <div class="container">

@@ -24,9 +24,10 @@ $page_schema = '<script type="application/ld+json">
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "26.0736",
-        "longitude": "83.1841"
+        "latitude": "26.0529916",
+        "longitude": "83.1828557"
       },
+      "hasMap": "https://maps.app.goo.gl/pqSHMSdS5L5bGCGB8",
       "areaServed": {
         "@type": "City",
         "name": "Azamgarh"
@@ -122,7 +123,12 @@ require "header.php";
             <i class="fa fa-graduation-cap"></i>
             <div><strong>Courses:</strong> 9th–12th Foundation, IIT-JEE, NEET-UG</div>
           </div>
-          <div class="mt-3">
+          <div class="mt-3 d-flex flex-wrap gap-2">
+            <a href="https://maps.app.goo.gl/pqSHMSdS5L5bGCGB8" class="btn-hl-secondary" target="_blank" rel="noopener"
+               onclick="gtag('event','branch_click',{branch:'azamgarh',action:'get-directions'})"
+               aria-label="Get directions to Helium Learn Azamgarh on Google Maps">
+              <i class="fa fa-location-arrow"></i> Get Directions
+            </a>
             <a href="https://calendar.app.google/shqrSfQdoPj4YaLVA" class="btn-hl-primary" target="_blank" rel="noopener" onclick="gtag('event','counselling_click',{source:'azamgarh-page'})">
               <i class="fa fa-calendar"></i> Book Free Counselling
             </a>
@@ -142,10 +148,20 @@ require "header.php";
     </div>
     <div style="border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.3!2d83.1836!3d26.0669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDA0JzAwLjgiTiA4M8KwMTEnMDAuOCJF!5e0!3m2!1sen!2sin!4v1!5m2!1sen!2sin"
-        width="100%" height="380" style="border:0;display:block;" allowfullscreen loading="lazy"
-        title="Helium Learn Azamgarh Centre Location">
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3590.697!2d83.1802808!3d26.0529964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991bd001852ec57%3A0xf4a9721757eb2d6d!2sHelium%3A%20IIT-JEE%20NEET-UG%20Foundation!5e0!3m2!1sen!2sin!4v1744200000000!5m2!1sen!2sin"
+        width="100%" height="420" style="border:0;display:block;" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Helium Learn — IIT-JEE NEET-UG Foundation, Azamgarh Centre Location on Google Maps">
       </iframe>
+    </div>
+    <div class="text-center mt-4">
+      <a href="https://maps.app.goo.gl/pqSHMSdS5L5bGCGB8"
+         target="_blank" rel="noopener"
+         class="btn-hl-primary"
+         onclick="gtag('event','branch_click',{branch:'azamgarh',action:'get-directions'})"
+         aria-label="Get directions to Helium Learn Azamgarh centre on Google Maps">
+        <i class="fa fa-location-arrow me-2"></i> Get Directions on Google Maps
+      </a>
     </div>
   </div>
 </section>

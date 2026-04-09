@@ -178,9 +178,6 @@
             <a class="nav-link <?= ($current_page??'')==='faculty'?'active-nav':'' ?>" href="/faculty" role="menuitem" onclick="gtag('event','faculty_view')">Faculty</a>
           </li>
           <li class="nav-item" role="none">
-            <a class="nav-link <?= ($current_page??'')==='app'?'active-nav':'' ?>" href="/app" role="menuitem">App</a>
-          </li>
-          <li class="nav-item" role="none">
             <a class="nav-link <?= ($current_page??'')==='contact'?'active-nav':'' ?>" href="/contact" role="menuitem">Contact</a>
           </li>
         </ul>

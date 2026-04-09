@@ -36,6 +36,8 @@ $page_schema = '<script type="application/ld+json">
   ]
 }
 </script>';
+$form_sent    = isset($_GET['sent']) && $_GET['sent'] === '1';
+$form_site_url = (isset($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
 require "header.php";
 ?>
 
@@ -52,12 +54,41 @@ require "header.php";
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
+
+        <?php if ($form_sent): ?>
+        <!-- Success state -->
+        <div style="text-align:center;padding:60px 20px;">
+          <div style="width:72px;height:72px;background:#dcfce7;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
+            <i class="fa fa-check-circle" style="font-size:36px;color:#16a34a;"></i>
+          </div>
+          <h2 style="color:#0f172a;margin-bottom:12px;">Enquiry Sent!</h2>
+          <p style="color:#475569;font-size:16px;max-width:420px;margin:0 auto 28px;">Thanks for reaching out. Our team will get back to you within a few hours on WhatsApp or phone.</p>
+          <a href="/contact" class="btn-hl-secondary d-inline-flex" style="margin-right:12px;">
+            <i class="fa fa-arrow-left me-2"></i> Send Another
+          </a>
+          <a href="/" class="btn-hl-primary d-inline-flex">
+            <i class="fa fa-home me-2"></i> Go Home
+          </a>
+        </div>
+        <?php else: ?>
+
         <div class="section-title text-start mb-4">
           <span class="section-badge">Enquiry Form</span>
           <h2>Send Us a Message</h2>
           <p>Fill in your details and we'll get back to you within a few hours.</p>
         </div>
-        <form class="hl-form" action="mail.php" method="POST" onsubmit="gtag('event','counselling_submit',{source:'contact-form'})">
+        <form class="hl-form"
+              action="https://formsubmit.co/heliumlearn@gmail.com"
+              method="POST"
+              onsubmit="gtag('event','counselling_submit',{source:'contact-form'})">
+
+          <!-- FormSubmit configuration -->
+          <input type="hidden" name="_subject" value="New Enquiry — Helium Learn Website">
+          <input type="hidden" name="_next" value="<?= htmlspecialchars($form_site_url) ?>/contact?sent=1">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
           <div class="row g-3">
             <div class="col-md-6">
               <label for="name">Full Name *</label>
@@ -95,6 +126,8 @@ require "header.php";
             </div>
           </div>
         </form>
+
+        <?php endif; ?>
       </div>
     </div>
   </div>

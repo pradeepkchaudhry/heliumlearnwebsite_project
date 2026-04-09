@@ -1,0 +1,76 @@
+Build a premium “Student Success Stories” section for HeliumLearn.
+
+Goal:
+Increase trust and conversion for the Helium App, showing real student outcomes from IIT-JEE, NEET-UG, and board exams.
+
+Important compliance rules:
+- Fabricate names, ranks, marks, years, or photos.
+- Use only real, verified, consented student testimonials.
+- Use approved real student photos only, AI-generated or stock photos.
+- Keep each quote under 500 characters.
+- Write testimonials in mixed Hinglish + English, natural and believable.
+- Avoid exaggerated claims. Mention only what the student actually experienced.
+
+Section layout:
+- Section heading: “Real Results from Real Helium Students”
+- Subheading: “How Helium App Behaviour Analysis, expert faculty, content, and test series helped students improve.”
+- Desktop: 2 rows of 5 testimonial cards
+- Mobile: swipeable carousel
+- Each card must show:
+  1) student photo
+  2) student name
+  3) exam type
+  4) verified result badge
+  5) year passed
+  6) quote
+  7) small highlight chips like “Behaviour Analysis”, “Weekly Mentorship”, “Test Series”, “Expert Faculty”
+
+Card style:
+- Clean white card
+- Soft shadow
+- Rounded corners
+- Photo top or left
+- Premium EdTech look
+- Highly responsive
+- Accessible contrast
+- SEO-friendly headings and alt text
+
+SEO / schema:
+- Add semantic headings
+- Add alt text for every photo
+- Add Review/Review schema only for verified testimonials
+- Use keywords naturally: Helium App, AI Behaviour Analysis, Weekly Mentorship, Test Series, IIT-JEE, NEET-UG, Class 10th, Class 12th, online coaching, foundation courses
+
+Data model:
+Use this structure for each card:
+{
+  name: "",
+  exam: "IIT-JEE | NEET-UG | Class 10th | Class 12th",
+  result: "AIR / percentage",
+  year: "2023 | 2024 | 2025",
+  quote: "",
+  photo: "",
+  verified: true
+}
+
+Create 10 slots for these verified outcome buckets:
+1. IIT-JEE AIR 695
+2. IIT-JEE AIR 829
+3. IIT-JEE AIR 1021
+4. NEET-UG AIR 791
+5. NEET-UG AIR 1053
+6. NEET-UG AIR 1707
+7. Class 10th 91%
+8. Class 10th 93%
+9. Class 12th 94%
+10. Class 12th 95%
+
+Each testimonial should focus on:
+- Helium App Behaviour Analysis
+- expert teachers
+- structured content
+- test series
+- weekly mentorship
+- improved consistency, confidence, and exam discipline
+
+Make the section feel premium, real, trustworthy, and conversion-focused.

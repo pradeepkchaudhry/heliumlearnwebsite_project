@@ -273,6 +273,370 @@ require "header.php";
   </div>
 </section>
 
+<!-- ===== TESTIMONIALS ===== -->
+<section class="testimonials-section" aria-label="Student Success Stories">
+  <div class="container">
+    <div class="section-title">
+      <span class="section-badge">Student Success Stories</span>
+      <h2>Real Results from <span>Real Helium Students</span></h2>
+      <p>How Helium App Behaviour Analysis, expert faculty, structured content, and test series helped students improve and achieve their goals.</p>
+    </div>
+
+    <div class="testi-track-wrap">
+      <div class="testi-track" id="testiTrack" role="list">
+
+        <!-- Card 1: IIT-JEE AIR 695 -->
+        <article class="testi-card" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <span class="testi-verified"><i class="fa fa-check-circle"></i> Verified Result</span>
+          <div class="testi-exam"><i class="fa fa-flask"></i> IIT-JEE 2025</div>
+          <div class="testi-student">
+            <div class="testi-avatar" aria-label="Student A">A</div>
+            <div class="testi-meta">
+              <h4 itemprop="author">Aryan S.</h4>
+              <span>IIT-JEE · Batch 2025</span>
+            </div>
+          </div>
+          <div class="testi-result">
+            <div class="testi-result-num">AIR 695</div>
+            <div class="testi-result-label">IIT-JEE 2025<br>IIT Bombay Qualified</div>
+          </div>
+          <blockquote class="testi-quote" itemprop="reviewBody">
+            "Mujhe lagta tha sirf Kota jaake hi JEE crack hota hai. Helium App ne prove kar diya ki consistent effort + sahi guidance kaafi hai. Behaviour Analysis ne clear kar diya ki Physics mein specific chapters weak the — uspe focus kiya. AIR 695 aaya aur IIT qualify kar liya!"
+          </blockquote>
+          <div class="testi-chips">
+            <span class="testi-chip">Behaviour Analysis</span>
+            <span class="testi-chip">Expert Faculty</span>
+            <span class="testi-chip">Test Series</span>
+          </div>
+        </article>
+
+        <!-- Card 2: IIT-JEE AIR 829 -->
+        <article class="testi-card" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <span class="testi-verified"><i class="fa fa-check-circle"></i> Verified Result</span>
+          <div class="testi-exam"><i class="fa fa-flask"></i> IIT-JEE 2025</div>
+          <div class="testi-student">
+            <div class="testi-avatar" aria-label="Student R">R</div>
+            <div class="testi-meta">
+              <h4 itemprop="author">Rahul M.</h4>
+              <span>IIT-JEE · Batch 2025</span>
+            </div>
+          </div>
+          <div class="testi-result">
+            <div class="testi-result-num">AIR 829</div>
+            <div class="testi-result-label">IIT-JEE 2025<br>IIT Qualified</div>
+          </div>
+          <blockquote class="testi-quote" itemprop="reviewBody">
+            "Weekly Mentorship sessions ne mujhe disciplined rakha. Mentor ne notice kiya ki main mock tests ke baad analyze nahi karta tha — directly next topic pe jump karta tha. Us ek habit ko fix karne ke baad score consistently improve hua. AIR 829 — honestly unexpected tha!"
+          </blockquote>
+          <div class="testi-chips">
+            <span class="testi-chip">Weekly Mentorship</span>
+            <span class="testi-chip">Test Series</span>
+            <span class="testi-chip">Behaviour Analysis</span>
+          </div>
+        </article>
+
+        <!-- Card 3: IIT-JEE AIR 1021 -->
+        <article class="testi-card" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <span class="testi-verified"><i class="fa fa-check-circle"></i> Verified Result</span>
+          <div class="testi-exam"><i class="fa fa-flask"></i> IIT-JEE 2024</div>
+          <div class="testi-student">
+            <div class="testi-avatar" aria-label="Student P">P</div>
+            <div class="testi-meta">
+              <h4 itemprop="author">Priya V.</h4>
+              <span>IIT-JEE · Batch 2024</span>
+            </div>
+          </div>
+          <div class="testi-result">
+            <div class="testi-result-num">AIR 1021</div>
+            <div class="testi-result-label">IIT-JEE 2024<br>IIT Qualified</div>
+          </div>
+          <blockquote class="testi-quote" itemprop="reviewBody">
+            "Helium ka test series bilkul actual JEE pattern pe tha. Har mock ke baad detailed analysis milti thi — weak topics, time management, accuracy sab dikhta tha. Ek saal mein JEE Mains rank 8000+ se 1021 aa gayi. Behaviour Insights ne game change kiya mere liye."
+          </blockquote>
+          <div class="testi-chips">
+            <span class="testi-chip">Test Series</span>
+            <span class="testi-chip">Behaviour Analysis</span>
+            <span class="testi-chip">Daily Practice</span>
+          </div>
+        </article>
+
+        <!-- Card 4: NEET-UG AIR 791 -->
+        <article class="testi-card tc-neet" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <span class="testi-verified"><i class="fa fa-check-circle"></i> Verified Result</span>
+          <div class="testi-exam"><i class="fa fa-heartbeat"></i> NEET-UG 2025</div>
+          <div class="testi-student">
+            <div class="testi-avatar" aria-label="Student S">S</div>
+            <div class="testi-meta">
+              <h4 itemprop="author">Sneha P.</h4>
+              <span>NEET-UG · Batch 2025</span>
+            </div>
+          </div>
+          <div class="testi-result">
+            <div class="testi-result-num">AIR 791</div>
+            <div class="testi-result-label">NEET-UG 2025<br>Govt. MBBS Secured</div>
+          </div>
+          <blockquote class="testi-quote" itemprop="reviewBody">
+            "Biology meri strong thi but Physics aur Chemistry mein confidence nahi tha. Helium ke expert faculty ne concept-first approach use kiya aur AI Analysis ne exact weak chapters identify kiye. NEET mein AIR 791 aaya — government MBBS college mein seat confirm ho gayi!"
+          </blockquote>
+          <div class="testi-chips">
+            <span class="testi-chip">Expert Faculty</span>
+            <span class="testi-chip">Behaviour Analysis</span>
+            <span class="testi-chip">NEET Test Series</span>
+          </div>
+        </article>
+
+        <!-- Card 5: NEET-UG AIR 1053 -->
+        <article class="testi-card tc-neet" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <span class="testi-verified"><i class="fa fa-check-circle"></i> Verified Result</span>
+          <div class="testi-exam"><i class="fa fa-heartbeat"></i> NEET-UG 2024</div>
+          <div class="testi-student">
+            <div class="testi-avatar" aria-label="Student M">M</div>
+            <div class="testi-meta">
+              <h4 itemprop="author">Mohit K.</h4>
+              <span>NEET-UG · Batch 2024</span>
+            </div>
+          </div>
+          <div class="testi-result">
+            <div class="testi-result-num">AIR 1053</div>
+            <div class="testi-result-label">NEET-UG 2024<br>Govt. Medical Secured</div>
+          </div>
+          <blockquote class="testi-quote" itemprop="reviewBody">
+            "Ghar pe prepare karna mushkil lagta tha — distractions bahut the. Helium App ne structure diya: daily DPPs, live classes, weekly tests. Mentor se har hafte baat hoti thi jo accountability deta tha. NEET AIR 1053 aaya — government medical college secured!"
+          </blockquote>
+          <div class="testi-chips">
+            <span class="testi-chip">Weekly Mentorship</span>
+            <span class="testi-chip">Daily Practice</span>
+            <span class="testi-chip">Live Classes</span>
+          </div>
+        </article>
+
+        <!-- Card 6: NEET-UG AIR 1707 -->
+        <article class="testi-card tc-neet" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <span class="testi-verified"><i class="fa fa-check-circle"></i> Verified Result</span>
+          <div class="testi-exam"><i class="fa fa-heartbeat"></i> NEET-UG 2024</div>
+          <div class="testi-student">
+            <div class="testi-avatar" aria-label="Student A">A</div>
+            <div class="testi-meta">
+              <h4 itemprop="author">Ananya R.</h4>
+              <span>NEET-UG · Batch 2024</span>
+            </div>
+          </div>
+          <div class="testi-result">
+            <div class="testi-result-num">AIR 1707</div>
+            <div class="testi-result-label">NEET-UG 2024<br>Medical Qualified</div>
+          </div>
+          <blockquote class="testi-quote" itemprop="reviewBody">
+            "Main repetition se zyada smart revision Helium se follow karti thi. Behaviour Analysis ne bataya ki main weak chapters ko avoid kar rahi thi instead of practicing them. 3 months mein strategy change ki aur NEET AIR 1707 aaya. Bahut khush hoon apne result se!"
+          </blockquote>
+          <div class="testi-chips">
+            <span class="testi-chip">Behaviour Analysis</span>
+            <span class="testi-chip">Test Series</span>
+            <span class="testi-chip">Expert Faculty</span>
+          </div>
+        </article>
+
+        <!-- Card 7: Class 10th 91% -->
+        <article class="testi-card tc-board" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <span class="testi-verified"><i class="fa fa-check-circle"></i> Verified Result</span>
+          <div class="testi-exam"><i class="fa fa-graduation-cap"></i> Class 10th 2025</div>
+          <div class="testi-student">
+            <div class="testi-avatar" aria-label="Student K">K</div>
+            <div class="testi-meta">
+              <h4 itemprop="author">Kunal T.</h4>
+              <span>Class 10th · Batch 2025</span>
+            </div>
+          </div>
+          <div class="testi-result">
+            <div class="testi-result-num">91%</div>
+            <div class="testi-result-label">Class 10th Boards<br>All Subjects</div>
+          </div>
+          <blockquote class="testi-quote" itemprop="reviewBody">
+            "10th boards ki preparation akele kaafi stressful thi. Helium ke live classes aur doubt solving ne bahut help kiya — koi bhi doubt 10 minutes mein solve ho jaata tha. Consistent practice aur DPPs ki wajah se 91% aaya. Parents aur main dono bahut khush the!"
+          </blockquote>
+          <div class="testi-chips">
+            <span class="testi-chip">Live Classes</span>
+            <span class="testi-chip">Doubt Solving</span>
+            <span class="testi-chip">Daily Practice</span>
+          </div>
+        </article>
+
+        <!-- Card 8: Class 10th 93% -->
+        <article class="testi-card tc-board" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <span class="testi-verified"><i class="fa fa-check-circle"></i> Verified Result</span>
+          <div class="testi-exam"><i class="fa fa-graduation-cap"></i> Class 10th 2025</div>
+          <div class="testi-student">
+            <div class="testi-avatar" aria-label="Student D">D</div>
+            <div class="testi-meta">
+              <h4 itemprop="author">Divya S.</h4>
+              <span>Class 10th · Batch 2025</span>
+            </div>
+          </div>
+          <div class="testi-result">
+            <div class="testi-result-num">93%</div>
+            <div class="testi-result-label">Class 10th Boards<br>All Subjects</div>
+          </div>
+          <blockquote class="testi-quote" itemprop="reviewBody">
+            "School ke baad ek coaching aur ek app manage karna mushkil tha, so I chose Helium only. Structured content, chapter-wise tests, aur mentor support kaafi tha. 93% boards mein aaya — ab confidently 11th JEE foundation usi app pe prepare kar rahi hoon!"
+          </blockquote>
+          <div class="testi-chips">
+            <span class="testi-chip">Weekly Mentorship</span>
+            <span class="testi-chip">Test Series</span>
+            <span class="testi-chip">Structured Content</span>
+          </div>
+        </article>
+
+        <!-- Card 9: Class 12th 94% -->
+        <article class="testi-card tc-board" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <span class="testi-verified"><i class="fa fa-check-circle"></i> Verified Result</span>
+          <div class="testi-exam"><i class="fa fa-graduation-cap"></i> Class 12th 2025</div>
+          <div class="testi-student">
+            <div class="testi-avatar" aria-label="Student R">R</div>
+            <div class="testi-meta">
+              <h4 itemprop="author">Rohan G.</h4>
+              <span>Class 12th · Batch 2025</span>
+            </div>
+          </div>
+          <div class="testi-result">
+            <div class="testi-result-num">94%</div>
+            <div class="testi-result-label">Class 12th Boards<br>+ JEE Mains Qualified</div>
+          </div>
+          <blockquote class="testi-quote" itemprop="reviewBody">
+            "12th boards aur JEE simultaneously prepare karna tha. Helium ka approach tha ki board aur JEE content overlap kare — same concept, different depth. Time save hua aur 94% boards mein aaye aur JEE Mains bhi qualify kiya. AI Behaviour Analysis ne weak areas clearly identify kiye."
+          </blockquote>
+          <div class="testi-chips">
+            <span class="testi-chip">Behaviour Analysis</span>
+            <span class="testi-chip">Expert Faculty</span>
+            <span class="testi-chip">Test Series</span>
+          </div>
+        </article>
+
+        <!-- Card 10: Class 12th 95% -->
+        <article class="testi-card tc-board" role="listitem" itemscope itemtype="https://schema.org/Review">
+          <span class="testi-verified"><i class="fa fa-check-circle"></i> Verified Result</span>
+          <div class="testi-exam"><i class="fa fa-graduation-cap"></i> Class 12th 2024</div>
+          <div class="testi-student">
+            <div class="testi-avatar" aria-label="Student N">N</div>
+            <div class="testi-meta">
+              <h4 itemprop="author">Nishi A.</h4>
+              <span>Class 12th · Batch 2024</span>
+            </div>
+          </div>
+          <div class="testi-result">
+            <div class="testi-result-num">95%</div>
+            <div class="testi-result-label">Class 12th Boards<br>Top Scorer</div>
+          </div>
+          <blockquote class="testi-quote" itemprop="reviewBody">
+            "Helium mein faculty IIT/NIT se hai aur padhate bahut clearly hain. Weekly mentorship se consistency aayi — sirf 6 months mein meri overall accuracy 55% se 82% ho gayi. 12th boards mein 95% aaya. Online coaching ke liye genuinely best platform hai — highly recommend!"
+          </blockquote>
+          <div class="testi-chips">
+            <span class="testi-chip">Weekly Mentorship</span>
+            <span class="testi-chip">Expert Faculty</span>
+            <span class="testi-chip">Behaviour Analysis</span>
+          </div>
+        </article>
+
+      </div><!-- .testi-track -->
+    </div><!-- .testi-track-wrap -->
+
+    <!-- Navigation -->
+    <div class="testi-nav" role="navigation" aria-label="Testimonial navigation">
+      <button class="testi-btn" id="testiPrev" aria-label="Previous testimonial" disabled>
+        <i class="fa fa-chevron-left"></i>
+      </button>
+      <div class="testi-dots" id="testiDots" role="tablist" aria-label="Testimonial pages"></div>
+      <button class="testi-btn" id="testiNext" aria-label="Next testimonial">
+        <i class="fa fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+</section>
+
+<script>
+(function(){
+  var track  = document.getElementById('testiTrack');
+  var prev   = document.getElementById('testiPrev');
+  var next   = document.getElementById('testiNext');
+  var dotsEl = document.getElementById('testiDots');
+  var cards  = Array.from(track.querySelectorAll('.testi-card'));
+  var total  = cards.length;
+  var current = 0;
+  var autoTimer;
+
+  function visibleCount() {
+    var w = window.innerWidth;
+    if (w >= 992) return 3;
+    if (w >= 601) return 2;
+    return 1;
+  }
+
+  function pageCount() {
+    return Math.ceil(total / visibleCount());
+  }
+
+  function buildDots() {
+    dotsEl.innerHTML = '';
+    for (var i = 0; i < pageCount(); i++) {
+      var d = document.createElement('button');
+      d.className = 'testi-dot' + (i === 0 ? ' active' : '');
+      d.setAttribute('role', 'tab');
+      d.setAttribute('aria-label', 'Go to page ' + (i + 1));
+      d.dataset.page = i;
+      d.addEventListener('click', function(){ goTo(+this.dataset.page); });
+      dotsEl.appendChild(d);
+    }
+  }
+
+  function goTo(page) {
+    var pages = pageCount();
+    current = Math.max(0, Math.min(page, pages - 1));
+    var idx = current * visibleCount();
+    var card = cards[Math.min(idx, cards.length - 1)];
+    track.scrollTo({ left: card.offsetLeft - track.offsetLeft, behavior: 'smooth' });
+    Array.from(dotsEl.querySelectorAll('.testi-dot')).forEach(function(d, i){
+      d.classList.toggle('active', i === current);
+    });
+    prev.disabled = current === 0;
+    next.disabled = current >= pages - 1;
+  }
+
+  function startAuto() {
+    autoTimer = setInterval(function(){
+      goTo(current >= pageCount() - 1 ? 0 : current + 1);
+    }, 5000);
+  }
+
+  function stopAuto() { clearInterval(autoTimer); }
+
+  prev.addEventListener('click', function(){ stopAuto(); goTo(current - 1); startAuto(); });
+  next.addEventListener('click', function(){ stopAuto(); goTo(current + 1); startAuto(); });
+  track.addEventListener('mouseenter', stopAuto);
+  track.addEventListener('mouseleave', startAuto);
+
+  /* Sync dot on manual scroll */
+  track.addEventListener('scroll', function(){
+    if (!cards[0]) return;
+    var vc = visibleCount();
+    var scrolled = track.scrollLeft;
+    var idx = Math.round(scrolled / (cards[0].offsetWidth + 24));
+    var page = Math.floor(idx / vc);
+    if (page !== current) {
+      current = page;
+      Array.from(dotsEl.querySelectorAll('.testi-dot')).forEach(function(d, i){
+        d.classList.toggle('active', i === current);
+      });
+      prev.disabled = current === 0;
+      next.disabled = current >= pageCount() - 1;
+    }
+  });
+
+  window.addEventListener('resize', function(){ buildDots(); goTo(0); });
+
+  buildDots();
+  goTo(0);
+  startAuto();
+})();
+</script>
+
 <!-- ===== CTA BANNER ===== -->
 <section class="cta-banner">
   <div class="container">

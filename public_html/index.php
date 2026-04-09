@@ -28,9 +28,9 @@ require "header.php";
           </a>
         </div>
         <div class="hero-stats">
-          <div class="hero-stat"><div class="num">50K+</div><div class="lbl">Students Learning</div></div>
-          <div class="hero-stat"><div class="num">100+</div><div class="lbl">Expert Faculty</div></div>
-          <div class="hero-stat"><div class="num">6</div><div class="lbl">Courses Offered</div></div>
+          <div class="hero-stat"><div class="num">10K+</div><div class="lbl">Students Learning</div></div>
+          <div class="hero-stat"><div class="num">10+</div><div class="lbl">Expert Faculty</div></div>
+          <div class="hero-stat"><div class="num">6+</div><div class="lbl">Courses Offered</div></div>
           <div class="hero-stat"><div class="num">4.8★</div><div class="lbl">App Rating</div></div>
         </div>
       </div>
@@ -183,13 +183,13 @@ require "header.php";
     <div class="row g-4 text-center">
       <div class="col-6 col-md-3">
         <div class="trust-stat">
-          <div class="ts-num" style="color:#fbbf24;">50K<span class="ts-unit" style="color:#fbbf24;">+</span></div>
+          <div class="ts-num" style="color:#fbbf24;">10K<span class="ts-unit" style="color:#fbbf24;">+</span></div>
           <p style="color:rgba(255,255,255,.8);">Active Students</p>
         </div>
       </div>
       <div class="col-6 col-md-3">
         <div class="trust-stat">
-          <div class="ts-num" style="color:#fbbf24;">100<span class="ts-unit" style="color:#fbbf24;">+</span></div>
+          <div class="ts-num" style="color:#fbbf24;">10<span class="ts-unit" style="color:#fbbf24;">+</span></div>
           <p style="color:rgba(255,255,255,.8);">Expert Faculty</p>
         </div>
       </div>

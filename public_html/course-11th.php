@@ -42,5 +42,5 @@ require "header.php";
   </div>
 </div>
 
-<?php include "inc/course-template.php"; ?>
+<?php $course_id = '11'; include "inc/course-template.php"; ?>
 <?php require "footer.php"; ?>

@@ -166,15 +166,6 @@ require "header.php";
           </a>
         </div>
 
-        <!-- Social -->
-        <div class="mt-4">
-          <h5 class="mb-3">Follow Us</h5>
-          <div class="d-flex gap-2 flex-wrap">
-            <a href="https://www.facebook.com/heliumlearn" target="_blank" rel="noopener" class="btn-hl-secondary d-inline-flex" style="padding:8px 14px;font-size:13px;gap:6px;"><i class="fab fa-facebook-f"></i> Facebook</a>
-            <a href="https://www.instagram.com/heliumlearn" target="_blank" rel="noopener" class="btn-hl-secondary d-inline-flex" style="padding:8px 14px;font-size:13px;gap:6px;"><i class="fab fa-instagram"></i> Instagram</a>
-            <a href="https://t.me/heliumlearn" target="_blank" rel="noopener" class="btn-hl-secondary d-inline-flex" style="padding:8px 14px;font-size:13px;gap:6px;"><i class="fab fa-telegram-plane"></i> Telegram</a>
-          </div>
-        </div>
       </div>
     </div>
   </div>

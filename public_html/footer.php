@@ -15,6 +15,7 @@
             <a href="https://rb.gy/ev893a" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             <a href="https://rb.gy/nl0g8s" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
             <a href="https://t.me/heliumlearn" target="_blank" rel="noopener" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+            <a href="https://www.linkedin.com/company/heliumlearn/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
           </div>
           <a href="https://play.google.com/store/apps/details?id=com.helium.app" class="footer-play-btn" target="_blank" rel="noopener" onclick="gtag('event','app_download_click',{source:'footer'})">
             <i class="fab fa-google-play" style="font-size:22px;"></i>

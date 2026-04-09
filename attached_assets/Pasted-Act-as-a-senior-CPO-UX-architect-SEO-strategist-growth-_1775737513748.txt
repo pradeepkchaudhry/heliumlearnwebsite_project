@@ -1,0 +1,134 @@
+Act as a senior CPO + UX architect + SEO strategist + growth designer.
+
+Run a 2-pass RCA before building:
+1) Audit the current faculty page for hierarchy, trust, mobile UX, SEO, and conversion issues.
+2) Compare it with best-in-class EdTech faculty pages and identify gaps in authority, clarity, layout, and action flow.
+
+Goal:
+Rebuild the faculty page into a premium, SEO-friendly, high-trust authority page for Helium Learn.
+
+Core page strategy:
+- Team 1 must be “Subject Experts Team from Kota” and must appear first.
+- Each teacher must have a dedicated premium card.
+- The page must feel authoritative, modern, and conversion-focused.
+- Keep Download App CTA and Book Free Counselling CTA visible throughout the page.
+
+Required page structure:
+1. Hero section
+   - H1: “Meet Helium’s Expert Faculty for IIT-JEE and NEET-UG”
+   - Subheading: focus on concept clarity, mentorship, disciplined learning, and performance improvement
+   - Primary CTA: Download App
+   - Secondary CTA: Book Free Counselling
+
+2. Team hierarchy section
+   - Section 1: Team Kota (priority)
+   - Section 2: Subject Experts / Prayagraj Team
+   - Make hierarchy visually obvious with badges, section headers, and strong spacing
+
+3. Faculty cards
+   For every teacher, create a premium card with:
+   - photo
+   - name
+   - subject
+   - team label
+   - qualification
+   - years of experience
+   - ex-institutions
+   - key achievements
+   - “About” section up to 800 characters
+   - credibility badges
+   - subtle CTA: View Details / Start Learning
+
+4. Deep profile layout
+   Each teacher page/card should include:
+   - short headline
+   - qualification and experience
+   - ex-institutions
+   - achievements
+   - teaching philosophy
+   - how they help Helium students
+   - relevant course CTA
+
+5. SEO and schema
+   - Use one H1 only
+   - Add H2/H3 structure
+   - Add semantic HTML
+   - Add Person schema for each teacher
+   - Add Organization schema for Helium
+   - Add BreadcrumbList schema
+   - Add ItemList schema for faculty list
+   - Use natural keywords:
+     IIT-JEE faculty, NEET-UG faculty, expert teachers, Kota faculty, Prayagraj experts, online coaching, weekly mentorship, Helium App, concept clarity, test series, student growth
+
+6. Design requirements
+   - Premium modern startup-style layout
+   - Desktop grid: 2 or 3 columns
+   - Mobile: stacked, swipe-friendly cards
+   - Soft shadows, rounded corners, clean spacing
+   - Academic and trustworthy visual style
+   - Not cluttered, not generic, not template-like
+
+7. Conversion requirements
+   - Keep Download App CTA prominent
+   - Keep Book Free Counselling CTA visible
+   - Add small trust blocks:
+     expert guidance, weekly mentorship, app-based learning, test series, student support
+
+8. Content rules
+   - Use only the teacher details provided below
+   - Do not invent qualifications, awards, institutions, or ranks
+   - If a claim is unverified, mark it as “to verify”
+   - Write in professional, student-friendly English
+   - Keep each bio under 800 characters
+   - Make the copy credible, warm, and authority-driven
+
+9. Team data to use
+
+Team Kota:
+- Anup Singh (Biology Expert)
+- Nitin Srivastava (Physics Expert)
+- Sanjay Mishra  (Chemistry)
+- Dr. Ankit Sir (Physics Expert)
+- Vinay Mehrotra Sir — Maths
+- Er. R. K. Singh — Physics
+- Dr. Amit Tripathi — Chemistry
+- Er. Shubham Gupta — Chemistry
+- Dr. Mahtab Alam — Biology
+
+10. Use these biography drafts or improve them without adding unverified claims
+
+Anup Singh — Biology Expert
+National Head of Faculty Training at Unacademy. Known for training and academic leadership at scale. Has mentored 500+ doctors, 10+ national rank holders, and 3+ Olympiad champions, with 20+ years of excellence. Career path includes Allen Career Institute, Aakash Institute, Narayana Group, and Unacademy. Build a strong biography around mentorship, faculty excellence, academic systems, and student outcomes. Keep it authoritative and inspiring, but do not add any new claim beyond the details above.
+
+Nitin Srivastava — Physics Expert
+Physics expert with experience at Motion Education, Aakash, and Allen Kota. NIT graduate. Mentored 10K+ students and helped multiple students achieve AIR under 100 in JEE and NEET. Build a biography focused on concept clarity, problem-solving, disciplined test practice, and student performance improvement. Do not add unverified awards or extra institutions.
+
+Vinay Mehrotra Sir — Maths
+25+ years experience. IIT Kanpur alumni. Ex-faculty at Unacademy and 360°. Build a biography around mathematics expertise, strong fundamentals, exam strategy, and guiding students toward accuracy and confidence.
+
+Er. R. K. Singh — Physics
+20+ years experience. Ex-faculty at Aakash and Unacademy. Build a biography around physics fundamentals, concept clarity, doubt solving, and helping students master application-based problem solving.
+
+Dr. Amit Tripathi — Chemistry
+20+ years experience. Ex-faculty at JRS, Unacademy, Resonance, and ATC. Build a biography around chemistry command, structured explanation, and helping students retain and apply concepts effectively.
+
+Er. Shubham Gupta — Chemistry
+15+ years experience. Ex-faculty at Unacademy, Resonance, and Career Point. Build a biography around analytical chemistry teaching, exam orientation, and simplifying difficult topics for students.
+
+Dr. Mahtab Alam — Biology
+15+ years experience. Ex-faculty at Unacademy and Med JEE. Build a biography around biology clarity, exam-focused preparation, and helping students build strong NEET performance.
+
+Sanjay Mishra — Chemistry
+B.Tech from IIT Roorkee. Teaching experience over 10 years. Faculty at Unacademy Centre (Sikar, currently) and Allen Career Institute. Cleared IIT-JEE 2008. Won 1st Prize in Science Quiz by Council of Science & Technology. NTSE 2005 qualified. DTSE 2002, achieved 3rd rank. Build a biography around academic excellence, teaching discipline, and strong chemistry foundations.
+
+11. Output expectations
+- The page must look premium and trustworthy
+- The page must be SEO-friendly and conversion-focused
+- The page must explain why Helium faculty is different
+- The page must feel like a world-class EdTech faculty showcase
+- Keep the UI clean, elegant, and highly responsive
+
+Important:
+- Do not fabricate any data
+- Do not use generic stock-style faculty layouts
+- Make the page high authority, easy to scan, and conversion optimized

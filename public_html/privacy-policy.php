@@ -1,6 +1,6 @@
 <?php
-$page_title = "Privacy Policy — Helium Learn";
-$page_description = "Read Helium Learn's privacy policy to understand how we collect, use, and protect your personal information.";
+$page_title = "Privacy Policy | Helium Learn";
+$page_description = "Read Helium Learn's Privacy Policy — how we collect, use, and protect your personal data on the Helium App and website.";
 $canonical = "https://heliumlearn.com/privacy-policy";
 $current_page = "";
 require "header.php";
@@ -9,67 +9,47 @@ require "header.php";
 <div class="hl-breadcrumb">
   <div class="container">
     <h1>Privacy Policy</h1>
-    <p>Last updated: January 2025</p>
-    <nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item active">Privacy Policy</li></ol></nav>
+    <p>Read our privacy practices for the Helium App and website.</p>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item active">Privacy Policy</li>
+      </ol>
+    </nav>
   </div>
 </div>
 
-<section class="hl-section">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-9">
-        <div style="background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:40px;">
+<section class="hl-section" style="padding-top:40px;padding-bottom:60px;">
+  <div class="container-pdf">
 
-          <div class="hl-info-box mb-4">
-            <strong>Summary:</strong> We collect only the information needed to provide our services. We do not sell your data. You can contact us to delete your data at any time.
-          </div>
-
-          <h2 style="font-size:22px;margin-bottom:12px;">1. Information We Collect</h2>
-          <p>When you use the Helium Learn app or website, we may collect:</p>
-          <ul style="margin:12px 0 20px 20px;font-size:15px;line-height:1.8;">
-            <li>Name, phone number, and email address (when you register or submit an enquiry)</li>
-            <li>Academic details such as your current class and target exam</li>
-            <li>Usage data including lessons watched, tests attempted, and doubts submitted</li>
-            <li>Device information and app analytics for performance improvement</li>
-          </ul>
-
-          <h2 style="font-size:22px;margin-bottom:12px;margin-top:28px;">2. How We Use Your Information</h2>
-          <ul style="margin:12px 0 20px 20px;font-size:15px;line-height:1.8;">
-            <li>To provide access to courses, live classes, and the Helium App</li>
-            <li>To personalise your learning experience using AI-based analysis</li>
-            <li>To send you course updates, class reminders, and important notifications</li>
-            <li>To respond to your support queries and enquiries</li>
-            <li>To improve our services through aggregated usage analytics</li>
-          </ul>
-
-          <h2 style="font-size:22px;margin-bottom:12px;margin-top:28px;">3. Data Sharing</h2>
-          <p style="font-size:15px;margin-bottom:16px;">We do not sell, rent, or share your personal information with third parties for marketing purposes. We may share data with:</p>
-          <ul style="margin:12px 0 20px 20px;font-size:15px;line-height:1.8;">
-            <li>Service providers who assist in delivering our platform (e.g. payment processors, cloud services) — under strict data agreements</li>
-            <li>Regulatory authorities, if required by law</li>
-          </ul>
-
-          <h2 style="font-size:22px;margin-bottom:12px;margin-top:28px;">4. Data Security</h2>
-          <p style="font-size:15px;margin-bottom:20px;">We use industry-standard security measures to protect your data. However, no method of electronic transmission is 100% secure, and we cannot guarantee absolute security.</p>
-
-          <h2 style="font-size:22px;margin-bottom:12px;margin-top:28px;">5. Your Rights</h2>
-          <ul style="margin:12px 0 20px 20px;font-size:15px;line-height:1.8;">
-            <li>Request access to the personal data we hold about you</li>
-            <li>Request correction of inaccurate data</li>
-            <li>Request deletion of your account and associated data</li>
-            <li>Opt out of marketing communications at any time</li>
-          </ul>
-
-          <h2 style="font-size:22px;margin-bottom:12px;margin-top:28px;">6. Cookies</h2>
-          <p style="font-size:15px;margin-bottom:20px;">Our website uses cookies to improve your experience and analyse usage. You can disable cookies in your browser settings, though this may affect some website functionality.</p>
-
-          <h2 style="font-size:22px;margin-bottom:12px;margin-top:28px;">7. Contact</h2>
-          <p style="font-size:15px;">For any privacy-related queries or to exercise your data rights, contact us at: <a href="mailto:support@heliumlearn.com" style="color:var(--primary);">support@heliumlearn.com</a> or call <a href="tel:+919889763777" style="color:var(--primary);">+91 9889763777</a>.</p>
-
-        </div>
+    <div class="pdf-viewer-wrap">
+      <div class="pdf-topbar">
+        <span class="pdf-doc-title"><i class="fa fa-shield-alt me-2"></i>Privacy Policy — Helium Learn</span>
+        <span class="pdf-note"><i class="fa fa-lock me-1"></i> View-only document</span>
+      </div>
+      <div class="pdf-frame-wrap">
+        <iframe
+          src="/Helium__pp.pdf#toolbar=0&navpanes=0&scrollbar=1&view=FitH"
+          title="Helium Learn Privacy Policy"
+          aria-label="Helium Learn Privacy Policy PDF"
+          width="100%"
+          loading="lazy"
+          allowfullscreen>
+          <p>Your browser does not support embedded PDFs.
+            <a href="/privacy-policy" style="color:var(--primary)">Please contact us</a> for a copy.
+          </p>
+        </iframe>
+      </div>
+      <div class="pdf-footer-bar">
+        <span>For privacy queries: <a href="mailto:support@heliumlearn.com">support@heliumlearn.com</a> &nbsp;|&nbsp; <a href="tel:+919889763777">+91 9889763777</a></span>
       </div>
     </div>
+
   </div>
 </section>
+
+<script>
+document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
+</script>
 
 <?php require "footer.php"; ?>

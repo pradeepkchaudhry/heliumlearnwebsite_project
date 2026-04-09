@@ -22,6 +22,7 @@ $routes = [
     '/azamgarh'          => __DIR__ . '/azamgarh.php',
     '/privacy-policy'    => __DIR__ . '/privacy-policy.php',
     '/terms'             => __DIR__ . '/terms.php',
+    '/terms-of-use'      => __DIR__ . '/terms.php',
     // Legacy redirects
     '/about'             => __DIR__ . '/index.php',
     '/about.php'         => __DIR__ . '/index.php',

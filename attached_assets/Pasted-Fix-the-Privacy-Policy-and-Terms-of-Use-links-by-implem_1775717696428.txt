@@ -1,0 +1,98 @@
+Fix the Privacy Policy and Terms of Use links by implementing a secure, view-only PDF experience.
+
+Context:
+There are two PDF files already in the codebase:
+- Helium_pp.pdf (Privacy Policy)
+- Helium_TC.pdf (Terms of Use)
+
+Current issue:
+Links are not working and PDFs open as downloadable files instead of structured readable pages.
+
+Goal:
+When users click:
+- "Privacy Policy"
+- "Terms of Use"
+
+They should:
+- Open in a new tab
+- See a clean embedded PDF viewer
+- Not directly download the file
+- Have a professional reading experience
+
+Implementation steps:
+
+1. Create two new routes/pages:
+- /privacy-policy
+- /terms-of-use
+
+2. On each page, embed the PDF using iframe:
+
+Privacy Policy page:
+<iframe 
+  src="/Helium_pp.pdf#toolbar=0&navpanes=0&scrollbar=1"
+  width="100%" 
+  height="1000px"
+  style="border: none;">
+</iframe>
+
+Terms page:
+<iframe 
+  src="/Helium_TC.pdf#toolbar=0&navpanes=0&scrollbar=1"
+  width="100%" 
+  height="1000px"
+  style="border: none;">
+</iframe>
+
+3. Add page structure:
+- Clean header (title)
+- Centered container
+- Responsive layout
+
+4. Update footer/menu links:
+
+Privacy Policy:
+<a href="/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>
+
+Terms of Use:
+<a href="/terms-of-use" target="_blank" rel="noopener">Terms of Use</a>
+
+5. Add CSS:
+
+.container-pdf {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+iframe {
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+6. Optional security improvement:
+Disable right click on PDF page:
+
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+7. Ensure mobile responsiveness:
+- iframe height adjusts
+- no overflow issues
+
+8. SEO improvements:
+- Add title tag:
+  "Privacy Policy | Helium Learn"
+  "Terms of Use | Helium Learn"
+- Add meta description
+
+Important:
+- Do NOT expose direct download links
+- Do NOT redirect to raw PDF file
+- Always render inside page
+
+Output:
+Working, clean, professional PDF viewing pages with proper routing and UI.

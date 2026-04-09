@@ -1,9 +1,45 @@
 <?php
 $page_title = "Helium Learn App — IIT-JEE & NEET on Android | Download Now";
 $page_description = "Download the Helium Learn app on Android for live classes, AI doubt solving, weekly mentorship, practice tests, and behaviour analysis for IIT-JEE & NEET.";
-$page_keywords = "Helium Learn app download, IIT-JEE app, NEET coaching app, online learning app India";
+$page_keywords = "Helium Learn app download, best IIT-JEE app, best NEET coaching app, online learning app India, JEE NEET preparation app";
 $canonical = "https://heliumlearn.com/app";
 $current_page = "app";
+$page_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "name": "Helium Learn",
+      "applicationCategory": "EducationApplication",
+      "operatingSystem": "ANDROID",
+      "description": "AI-powered IIT-JEE and NEET coaching app with live classes, instant doubt solving, weekly mentorship, daily practice questions, and all-India mock tests.",
+      "url": "https://play.google.com/store/apps/details?id=com.helium.app",
+      "author": {"@type": "Organization", "name": "Helium Learn", "url": "https://heliumlearn.com"},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "1000",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://heliumlearn.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Helium App", "item": "https://heliumlearn.com/app"}
+      ]
+    }
+  ]
+}
+</script>';
 require "header.php";
 ?>
 

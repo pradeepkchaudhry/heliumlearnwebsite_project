@@ -4,7 +4,74 @@ $page_description = "Crack IIT-JEE Main & Advanced with Helium Learn. Concept-fi
 $page_keywords = "IIT JEE coaching online, JEE Main coaching, JEE Advanced preparation, best JEE coaching app India";
 $canonical = "https://heliumlearn.com/courses/iit-jee";
 $current_page = "courses";
-$page_schema = '<script type="application/ld+json">{"@context":"https://schema.org","@type":"Course","name":"IIT-JEE (Main + Advanced) Preparation","description":"Comprehensive online IIT-JEE preparation with IIT-educated faculty, daily practice problems, and all-India mock tests.","provider":{"@type":"Organization","name":"Helium Learn","url":"https://heliumlearn.com"},"url":"https://heliumlearn.com/courses/iit-jee","educationalLevel":"Class 11-12, Dropper"}</script>';
+$og_type = 'website';
+$page_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Course",
+      "@id": "https://heliumlearn.com/courses/iit-jee#course",
+      "name": "IIT-JEE Main + Advanced Preparation",
+      "description": "Comprehensive online IIT-JEE coaching with concept-first teaching by IIT-educated faculty, daily practice problems, all-India mock tests, and weekly personalized mentorship.",
+      "url": "https://heliumlearn.com/courses/iit-jee",
+      "provider": {"@type": "EducationalOrganization", "name": "Helium Learn", "url": "https://heliumlearn.com"},
+      "educationalLevel": "Class 11, Class 12, Dropper",
+      "teaches": ["Physics for JEE", "Chemistry for JEE", "Mathematics for JEE", "JEE Main preparation", "JEE Advanced preparation"],
+      "coursePrerequisites": "Class 10 pass or currently in Class 11/12",
+      "availableLanguage": ["English", "Hindi"],
+      "courseMode": "Online",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Online",
+        "courseSchedule": {"@type": "Schedule", "repeatFrequency": "Daily"},
+        "instructor": {"@type": "Person", "name": "Expert IIT Faculty"}
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://heliumlearn.com/courses/iit-jee",
+        "availability": "https://schema.org/InStock",
+        "seller": {"@type": "Organization", "name": "Helium Learn"}
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "380",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://heliumlearn.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Courses", "item": "https://heliumlearn.com/courses"},
+        {"@type": "ListItem", "position": 3, "name": "IIT-JEE Coaching", "item": "https://heliumlearn.com/courses/iit-jee"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Helium Learn good for IIT-JEE preparation?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Helium Learn offers concept-first teaching by IIT-educated faculty, structured daily practice problems, weekly mentor check-ins, and all-India mock tests — all through the Helium App."}
+        },
+        {
+          "@type": "Question",
+          "name": "Does Helium Learn cover both JEE Main and JEE Advanced?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our IIT-JEE programme covers both JEE Main and JEE Advanced comprehensively — Physics, Chemistry, and Mathematics at the required depth."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Class 11 student join the IIT-JEE course?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Absolutely. We recommend starting in Class 11 for the best results. Our 2-year programme is structured from Class 11 through JEE."}
+        }
+      ]
+    }
+  ]
+}
+</script>';
 require "header.php";
 ?>
 

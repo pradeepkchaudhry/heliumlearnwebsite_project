@@ -4,7 +4,32 @@ $page_description = "Helium Learn's 9th Foundation course builds strong Maths & 
 $page_keywords = "9th class coaching online, 9th foundation IIT JEE, class 9 science maths coaching";
 $canonical = "https://heliumlearn.com/courses/9th";
 $current_page = "courses";
-$page_schema = '<script type="application/ld+json">{"@context":"https://schema.org","@type":"Course","name":"9th Foundation — JEE & NEET Prep","description":"Foundation course for Class 9 students building strong Maths & Science fundamentals for IIT-JEE and NEET preparation.","provider":{"@type":"Organization","name":"Helium Learn","url":"https://heliumlearn.com"},"url":"https://heliumlearn.com/courses/9th","educationalLevel":"Class 9"}</script>';
+$page_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Course",
+      "name": "Class 9 Foundation — JEE & NEET Prep",
+      "description": "Foundation course for Class 9 students building strong Maths and Science fundamentals for future IIT-JEE and NEET success. Includes live classes, mentorship, and the Helium App.",
+      "url": "https://heliumlearn.com/courses/9th",
+      "provider": {"@type": "EducationalOrganization", "name": "Helium Learn", "url": "https://heliumlearn.com"},
+      "educationalLevel": "Class 9",
+      "teaches": ["Mathematics", "Science", "Foundation for JEE", "Foundation for NEET"],
+      "courseMode": "Online",
+      "availableLanguage": ["English", "Hindi"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://heliumlearn.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Courses", "item": "https://heliumlearn.com/courses"},
+        {"@type": "ListItem", "position": 3, "name": "9th Foundation", "item": "https://heliumlearn.com/courses/9th"}
+      ]
+    }
+  ]
+}
+</script>';
 require "header.php";
 ?>
 

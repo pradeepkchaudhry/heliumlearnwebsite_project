@@ -1,9 +1,23 @@
 <?php
 $page_title = "Expert Faculty — IIT-JEE & NEET Teachers | Helium Learn";
 $page_description = "Meet Helium Learn's verified expert faculty — IIT, NIT, and AIIMS graduates with years of experience in IIT-JEE and NEET coaching.";
-$page_keywords = "IIT-JEE faculty, NEET teachers, best coaching faculty, Helium Learn teachers";
+$page_keywords = "IIT-JEE faculty, NEET teachers, best coaching teachers, IIT educated faculty India, Helium Learn teachers";
 $canonical = "https://heliumlearn.com/faculty";
 $current_page = "faculty";
+$page_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://heliumlearn.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Faculty", "item": "https://heliumlearn.com/faculty"}
+      ]
+    }
+  ]
+}
+</script>';
 require "header.php";
 ?>
 

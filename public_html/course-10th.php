@@ -4,7 +4,32 @@ $page_description = "Helium Learn's 10th Foundation course: board exam mastery c
 $page_keywords = "10th class coaching online, 10th board coaching, class 10 IIT JEE foundation, NEET foundation class 10";
 $canonical = "https://heliumlearn.com/courses/10th";
 $current_page = "courses";
-$page_schema = '<script type="application/ld+json">{"@context":"https://schema.org","@type":"Course","name":"10th Foundation — Board + JEE & NEET Prep","description":"Foundation course for Class 10 students balancing board exam preparation with competitive exam foundation.","provider":{"@type":"Organization","name":"Helium Learn","url":"https://heliumlearn.com"},"url":"https://heliumlearn.com/courses/10th","educationalLevel":"Class 10"}</script>';
+$page_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Course",
+      "name": "Class 10 Foundation — Board + JEE & NEET Prep",
+      "description": "Helium Learn Class 10 Foundation course covering board exam mastery combined with IIT-JEE and NEET foundation building. Live classes, AI mentorship, and the Helium App.",
+      "url": "https://heliumlearn.com/courses/10th",
+      "provider": {"@type": "EducationalOrganization", "name": "Helium Learn", "url": "https://heliumlearn.com"},
+      "educationalLevel": "Class 10",
+      "teaches": ["Mathematics", "Science", "Board Exam Preparation", "Foundation for JEE", "Foundation for NEET"],
+      "courseMode": "Online",
+      "availableLanguage": ["English", "Hindi"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://heliumlearn.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Courses", "item": "https://heliumlearn.com/courses"},
+        {"@type": "ListItem", "position": 3, "name": "10th Foundation", "item": "https://heliumlearn.com/courses/10th"}
+      ]
+    }
+  ]
+}
+</script>';
 require "header.php";
 ?>
 

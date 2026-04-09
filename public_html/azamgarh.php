@@ -1,9 +1,61 @@
 <?php
-$page_title = "Azamgarh Hybrid Learning Centre — Helium Learn";
-$page_description = "Helium Learn's hybrid learning centre in Azamgarh, U.P. combines online coaching with local in-person support. IIT-JEE and NEET preparation near Azamgarh.";
-$page_keywords = "Helium Learn Azamgarh, IIT-JEE coaching Azamgarh, NEET coaching Azamgarh, hybrid coaching Azamgarh";
+$page_title = "IIT-JEE & NEET Coaching in Azamgarh — Helium Learn";
+$page_description = "Helium Learn's hybrid learning centre in Azamgarh, U.P. combines online IIT-JEE and NEET coaching with local in-person support. Best coaching near Azamgarh.";
+$page_keywords = "IIT-JEE coaching Azamgarh, NEET coaching Azamgarh, coaching centre Azamgarh, Helium Learn Azamgarh, hybrid coaching UP";
 $canonical = "https://heliumlearn.com/azamgarh";
 $current_page = "";
+$page_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["EducationalOrganization", "LocalBusiness"],
+      "@id": "https://heliumlearn.com/azamgarh#localbusiness",
+      "name": "Helium Learn — Azamgarh Centre",
+      "description": "Helium Learn hybrid learning centre in Azamgarh, Uttar Pradesh. Online-first IIT-JEE and NEET coaching with local student support, doubt-clearing, and mentorship.",
+      "url": "https://heliumlearn.com/azamgarh",
+      "telephone": "+91-9889763777",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Azamgarh",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "276001",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "26.0736",
+        "longitude": "83.1841"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Azamgarh"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Courses at Azamgarh Centre",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Course", "name": "IIT-JEE (Main + Advanced)", "url": "https://heliumlearn.com/courses/iit-jee"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Course", "name": "NEET-UG Preparation", "url": "https://heliumlearn.com/courses/neet-ug"}}
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://heliumlearn.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Azamgarh Centre", "item": "https://heliumlearn.com/azamgarh"}
+      ]
+    }
+  ]
+}
+</script>';
 require "header.php";
 ?>
 

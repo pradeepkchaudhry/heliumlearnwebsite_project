@@ -89,5 +89,44 @@ public_html/
 - `branch_click` — Azamgarh centre clicks
 - `whatsapp_click` — WhatsApp button clicks
 
+## SEO Implementation (completed)
+### Indexability
+- `sitemap.xml` — 15 URLs, priority-weighted (1.0 homepage → 0.95 JEE/NEET → 0.3 legal)
+- `robots.txt` — blocks /inc/, PDFs, legacy .php files; points Googlebot to sitemap
+
+### Schema Markup (per-page via `$page_schema`)
+| Page | Schema Types |
+|------|--------------|
+| All pages (header.php) | EducationalOrganization + WebSite + SearchAction |
+| Homepage (index.php) | AggregateRating (4.8 / 10K reviews) |
+| /courses/iit-jee | Course + CourseInstance + Offer + AggregateRating + BreadcrumbList + FAQPage |
+| /courses/neet-ug | Course + CourseInstance + Offer + AggregateRating + BreadcrumbList + FAQPage |
+| /courses/9th–12th | Course + BreadcrumbList |
+| /faq | FAQPage (11 Q&A pairs) + BreadcrumbList |
+| /azamgarh | LocalBusiness + EducationalOrganization + BreadcrumbList |
+| /app | MobileApplication + AggregateRating + Offer + BreadcrumbList |
+| /faculty, /contact | BreadcrumbList |
+
+### On-Page Meta
+- All titles ≤60 chars (NEET & Class 12 titles shortened)
+- All pages have unique meta descriptions 140–160 chars
+- `og:url`, `og:site_name`, `og:locale`, `og:image:width/height` added sitewide
+- Twitter Card (summary_large_image) added sitewide
+- `meta name="robots"` with max-snippet:-1 added sitewide
+
+### Performance
+- Font Awesome CSS loaded deferred (`media=print` → onload swap)
+- Hero image preloaded via `$preload_hero` variable on homepage
+- Google Fonts `display=swap` to prevent render-blocking
+- `rel="preconnect"` for all CDN origins; `dns-prefetch` for analytics
+
+### Accessibility
+- All nav items have `aria-label`, `aria-expanded`, `aria-haspopup`, `role` attributes
+- All decorative icons have `aria-hidden="true"`
+- CTA buttons have explicit `aria-label` attributes
+
+### URL Routing (additional)
+| `/terms-of-use` | terms.php (alias) |
+
 ## Workflow
 - **Start application** — `php -S 0.0.0.0:5000 -t public_html public_html/router.php`

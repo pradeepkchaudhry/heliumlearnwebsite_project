@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Block unnecessary files
+Disallow: /inc/
+Disallow: /*.pdf$
+Disallow: /router.php
+Disallow: /about.php
+Disallow: /contact-us.php
+Disallow: /faq.php
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://heliumlearn.com/sitemap.xml

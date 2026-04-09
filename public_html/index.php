@@ -1,9 +1,26 @@
 <?php
-$page_title = "Helium Learn — IIT-JEE & NEET Online Coaching | Download App";
+$page_title = "Helium Learn — IIT-JEE & NEET Online Coaching App";
 $page_description = "India's online-first coaching for IIT-JEE & NEET. Live classes, AI-powered doubt solving, weekly mentorship, and expert faculty — all in the Helium App.";
-$page_keywords = "IIT-JEE coaching online, NEET coaching online, Helium Learn app, online coaching India";
+$page_keywords = "IIT-JEE coaching online, NEET coaching online, Helium Learn app, online coaching India, best JEE NEET app";
 $canonical = "https://heliumlearn.com/";
 $current_page = "home";
+$preload_hero = "/img/hero-img.png";
+$page_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "@id": "https://heliumlearn.com/#homepageorg",
+  "name": "Helium Learn",
+  "url": "https://heliumlearn.com",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "10000",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
+</script>';
 require "header.php";
 ?>
 

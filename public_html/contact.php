@@ -1,9 +1,41 @@
 <?php
 $page_title = "Contact Helium Learn — Admissions, WhatsApp & Counselling";
 $page_description = "Get in touch with Helium Learn for admissions, course queries, or support. Call, WhatsApp, email, or book a free counselling session.";
-$page_keywords = "Helium Learn contact, admissions enquiry, IIT-JEE NEET coaching contact";
+$page_keywords = "Helium Learn contact, admissions enquiry, IIT-JEE NEET coaching contact, book free counselling, WhatsApp coaching";
 $canonical = "https://heliumlearn.com/contact";
 $current_page = "contact";
+$page_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ContactPage",
+      "name": "Contact Helium Learn",
+      "url": "https://heliumlearn.com/contact",
+      "description": "Contact Helium Learn for IIT-JEE and NEET course admissions, app support, and free counselling sessions.",
+      "mainEntity": {
+        "@type": "EducationalOrganization",
+        "name": "Helium Learn",
+        "telephone": "+91-9889763777",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-9889763777",
+          "contactType": "admissions",
+          "availableLanguage": ["English", "Hindi"],
+          "areaServed": "IN"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://heliumlearn.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://heliumlearn.com/contact"}
+      ]
+    }
+  ]
+}
+</script>';
 require "header.php";
 ?>
 

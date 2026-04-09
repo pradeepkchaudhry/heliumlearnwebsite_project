@@ -1,10 +1,77 @@
 <?php
-$page_title = "NEET-UG Coaching Online — Biology, Physics & Chemistry | Helium Learn";
+$page_title = "NEET-UG Coaching Online — Biology, Physics & Chemistry | Helium";
 $page_description = "Crack NEET-UG with Helium Learn. NCERT-aligned Biology, Physics, and Chemistry coaching with expert faculty, daily practice, and AI-powered mentorship on the app.";
-$page_keywords = "NEET UG coaching online, NEET biology coaching, best NEET app, NEET preparation online India";
+$page_keywords = "NEET UG coaching online, NEET biology coaching, best NEET coaching app, NEET UG preparation online India, NEET online classes";
 $canonical = "https://heliumlearn.com/courses/neet-ug";
 $current_page = "courses";
-$page_schema = '<script type="application/ld+json">{"@context":"https://schema.org","@type":"Course","name":"NEET-UG Preparation","description":"Complete online NEET-UG preparation with NCERT-aligned teaching, daily practice, and expert faculty.","provider":{"@type":"Organization","name":"Helium Learn","url":"https://heliumlearn.com"},"url":"https://heliumlearn.com/courses/neet-ug","educationalLevel":"Class 11-12, Dropper"}</script>';
+$og_type = 'website';
+$page_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Course",
+      "@id": "https://heliumlearn.com/courses/neet-ug#course",
+      "name": "NEET-UG Preparation (Biology, Physics, Chemistry)",
+      "description": "Complete online NEET-UG coaching with NCERT-aligned teaching in Biology, Physics, and Chemistry. Expert faculty, daily practice, AI mentorship, and all-India mock tests on the Helium App.",
+      "url": "https://heliumlearn.com/courses/neet-ug",
+      "provider": {"@type": "EducationalOrganization", "name": "Helium Learn", "url": "https://heliumlearn.com"},
+      "educationalLevel": "Class 11, Class 12, Dropper",
+      "teaches": ["Biology for NEET", "Physics for NEET", "Chemistry for NEET", "NCERT-based learning", "NEET UG Mock Tests"],
+      "coursePrerequisites": "Class 10 pass or currently in Class 11/12",
+      "availableLanguage": ["English", "Hindi"],
+      "courseMode": "Online",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "Online",
+        "courseSchedule": {"@type": "Schedule", "repeatFrequency": "Daily"},
+        "instructor": {"@type": "Person", "name": "Expert NEET Faculty"}
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://heliumlearn.com/courses/neet-ug",
+        "availability": "https://schema.org/InStock",
+        "seller": {"@type": "Organization", "name": "Helium Learn"}
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "290",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://heliumlearn.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Courses", "item": "https://heliumlearn.com/courses"},
+        {"@type": "ListItem", "position": 3, "name": "NEET-UG Coaching", "item": "https://heliumlearn.com/courses/neet-ug"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Helium Learn good for NEET-UG preparation?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Helium Learn offers NCERT-aligned coaching in Biology, Physics, and Chemistry with expert faculty, daily practice problems, and all-India NEET mock tests through the Helium App."}
+        },
+        {
+          "@type": "Question",
+          "name": "Does Helium Learn follow the NCERT syllabus for NEET?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our NEET-UG curriculum is fully NCERT-aligned as per NTA guidelines. Every concept is taught chapter by chapter with NCERT-based MCQs and previous year question practice."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Class 11 student enrol for NEET-UG coaching at Helium Learn?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. We strongly recommend starting from Class 11 for a full 2-year NEET preparation. Our programme covers the entire syllabus across both years."}
+        }
+      ]
+    }
+  ]
+}
+</script>';
 require "header.php";
 ?>
 

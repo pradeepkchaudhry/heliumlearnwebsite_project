@@ -1,8 +1,118 @@
 <?php
-$page_title = "FAQs — Helium Learn IIT-JEE & NEET Coaching";
+$page_title = "FAQs — IIT-JEE & NEET Coaching | Helium Learn";
 $page_description = "Frequently asked questions about Helium Learn — courses, app features, admissions, fees, and more for IIT-JEE and NEET aspirants.";
 $canonical = "https://heliumlearn.com/faq";
 $current_page = "";
+
+$page_schema = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "@id": "https://heliumlearn.com/faq#faqpage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Helium Learn?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Helium Learn is an online-first EdTech platform offering coaching for IIT-JEE, NEET-UG, and school foundation (9th–12th). We combine live classes with AI-powered personalisation and weekly mentorship."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Helium Learn online or offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Helium Learn is primarily an online platform available across India via the Helium App. We also have a hybrid learning centre in Azamgarh, U.P. for local students. All other students learn 100% online."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which exams does Helium Learn prepare students for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We prepare students for IIT-JEE (Main + Advanced), NEET-UG, and school board exams for Class 9–12."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I download the Helium App?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Helium App is available on the Google Play Store for Android devices. Search for \"Helium Learn\" or visit play.google.com/store/apps/details?id=com.helium.app"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the Helium App free to download?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the app is free to download. Course subscriptions are available at various pricing tiers. Contact us at +91 9889763777 for current pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What features does the Helium App have?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Helium App includes: live classes, recorded sessions, instant doubt solving, AI-powered study recommendations, daily practice questions, weekly mentorship, and all-India mock tests."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use the Helium App without internet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can download lectures and notes for offline access. Live classes and doubt solving require an internet connection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which courses does Helium Learn offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer: 9th Foundation, 10th Foundation, 11th Foundation, 12th Foundation, IIT-JEE (Main + Advanced), and NEET-UG preparation courses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I enrol in a Helium Learn course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Download the Helium App or contact us via call or WhatsApp at +91 9889763777. You can also book a free counselling session to get guidance before enrolling."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a free trial available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can explore the app and attend a limited number of free sessions before subscribing. Contact us at +91 9889763777 for details on current trial offers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the weekly mentorship programme at Helium Learn?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every enrolled student is assigned a personal mentor. Mentors conduct weekly check-ins to review progress, set goals, and provide motivational and academic guidance."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://heliumlearn.com/"},
+        {"@type": "ListItem", "position": 2, "name": "FAQs", "item": "https://heliumlearn.com/faq"}
+      ]
+    }
+  ]
+}
+</script>';
+
 require "header.php";
 ?>
 

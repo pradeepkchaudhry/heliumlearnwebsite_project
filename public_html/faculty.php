@@ -156,7 +156,7 @@ require "header.php";
     </div>
     <h1>Meet Helium's <span>Expert Faculty</span><br>for IIT-JEE and NEET-UG</h1>
     <p class="fac-hero-lead">Our educators bring Kota's coaching excellence online — combining concept clarity, structured mentorship, and rigorous test practice to deliver measurable performance improvement for every student.</p>
-    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+    <div class="fac-hero-ctas">
       <a href="https://play.google.com/store/apps/details?id=com.helium.app"
          class="btn-hl-white" target="_blank" rel="noopener"
          onclick="gtag('event','app_download_click',{source:'faculty-hero'})">

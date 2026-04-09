@@ -63,12 +63,14 @@ require "header.php";
           </div>
           <h2 style="color:#0f172a;margin-bottom:12px;">Enquiry Sent!</h2>
           <p style="color:#475569;font-size:16px;max-width:420px;margin:0 auto 28px;">Thanks for reaching out. Our team will get back to you within a few hours on WhatsApp or phone.</p>
-          <a href="/contact" class="btn-hl-secondary d-inline-flex" style="margin-right:12px;">
-            <i class="fa fa-arrow-left me-2"></i> Send Another
-          </a>
-          <a href="/" class="btn-hl-primary d-inline-flex">
-            <i class="fa fa-home me-2"></i> Go Home
-          </a>
+          <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center" style="max-width:360px;margin:0 auto;">
+            <a href="/contact" class="btn-hl-secondary justify-content-center">
+              <i class="fa fa-arrow-left me-2"></i> Send Another
+            </a>
+            <a href="/" class="btn-hl-primary justify-content-center">
+              <i class="fa fa-home me-2"></i> Go Home
+            </a>
+          </div>
         </div>
         <?php else: ?>
 

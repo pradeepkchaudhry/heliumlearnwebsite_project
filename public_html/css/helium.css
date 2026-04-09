@@ -22,15 +22,28 @@
 }
 
 /* === BASE === */
-*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { font-family: 'Poppins', sans-serif; color: var(--text); background: var(--white); font-size: 16px; line-height: 1.7; }
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
+body { font-family: 'Poppins', sans-serif; color: var(--text); background: var(--white); font-size: 16px; line-height: 1.7; overflow-x: hidden; }
 a { text-decoration: none; color: inherit; transition: color .2s; }
 img { max-width: 100%; height: auto; display: block; }
 section { padding: 72px 0; }
 h1,h2,h3,h4,h5,h6 { color: var(--dark); font-weight: 700; line-height: 1.2; }
 p { margin-bottom: 0; }
 ul { margin: 0; padding: 0; }
+
+/* Prevent iOS Safari auto-zoom on form focus */
+input, select, textarea, button { font-size: 16px; }
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], select, textarea {
+  font-size: max(16px, 1em);
+}
+
+/* Touch-action for all interactive elements */
+a, button, [role="button"], .btn-hl-primary, .btn-hl-secondary, .btn-hl-white, .btn-hl-outline-white {
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+}
 
 /* === UTILITIES === */
 .hl-section { padding: 72px 0; }
@@ -1152,7 +1165,7 @@ ul { margin: 0; padding: 0; }
 .fac-hero h1 { font-size: 42px; color: #fff; font-weight: 800; line-height: 1.2; margin-bottom: 20px; }
 .fac-hero h1 span { color: #7dd3fc; }
 .fac-hero .fac-hero-lead { font-size: 17px; color: rgba(255,255,255,.82); max-width: 640px; margin: 0 auto 36px; line-height: 1.7; }
-.fac-hero-ctас { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+.fac-hero-ctas { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
 
 /* Faculty Stats Strip */
 .fac-stats-strip { background: #fff; border-bottom: 1px solid var(--border); padding: 28px 0; }
@@ -1293,4 +1306,303 @@ ul { margin: 0; padding: 0; }
   .fac-mid-cta-btns { justify-content: center; }
   .fac-name-block h3 { font-size: 17px; }
   .fac-team-header h2 { font-size: 26px; }
+}
+
+/* ============================================
+   COMPREHENSIVE MOBILE RESPONSIVENESS v2
+   Silicon Valley Product-Grade Overhaul
+   ============================================ */
+
+/* ── Universal touch targets: all interactive ≥ 44px ── */
+.btn-hl-primary,
+.btn-hl-secondary,
+.btn-hl-white,
+.btn-hl-outline-white,
+.btn-header-app,
+.nav-link,
+.testi-btn,
+.footer-play-btn {
+  min-height: 44px;
+}
+
+/* ── Fluid section padding: desktop → tablet → mobile → xs ── */
+@media (max-width: 991px) {
+  .why-section { padding: 64px 0; }
+  .testimonials-section { padding: 60px 0; }
+  .hl-section-sm { padding: 40px 0; }
+}
+
+@media (max-width: 767px) {
+  section,
+  .hl-section { padding: 44px 0; }
+  .hl-section-sm { padding: 32px 0; }
+  .why-section { padding: 52px 0; }
+  .testimonials-section { padding: 48px 0; }
+  .cta-banner { padding: 48px 0; }
+  .fac-hero { padding: 44px 0 40px; }
+  .hl-breadcrumb { padding: 36px 0 28px; }
+}
+
+@media (max-width: 575px) {
+  section,
+  .hl-section { padding: 36px 0; }
+  .hl-section-sm { padding: 26px 0; }
+  .why-section { padding: 40px 0; }
+  .testimonials-section { padding: 36px 0; }
+  .cta-banner { padding: 36px 0; }
+  .section-title { margin-bottom: 32px; }
+  .section-title h2 { font-size: 22px; line-height: 1.25; }
+  .section-title p { font-size: 15px; }
+}
+
+/* ── Hero: extra scaling on very small phones ── */
+@media (max-width: 420px) {
+  .hl-hero h1 { font-size: 24px; }
+  .hl-hero p.hero-lead { font-size: 15px; }
+  .hl-hero .hero-stats { gap: 16px; }
+  .hl-hero .hero-stat .num { font-size: 20px; }
+  .hl-hero .hero-stat .lbl { font-size: 11px; }
+}
+
+/* ── Buttons: full-width CTA contexts on mobile ── */
+@media (max-width: 575px) {
+  /* CTA Banner: full-width centered buttons */
+  .cta-banner .cta-btns {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 16px;
+  }
+  .cta-banner .cta-btns a {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Hero CTAs already use flex-direction: column via 767px breakpoint — reinforce */
+  .hl-hero .hero-ctas a {
+    width: 100%;
+    justify-content: center;
+    white-space: normal;
+  }
+
+  /* Faculty mid CTA buttons — full width on xs */
+  .fac-mid-cta-btns {
+    flex-direction: column;
+    width: 100%;
+  }
+  .fac-mid-cta-btns a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Faculty hero CTA buttons — full width on xs */
+  .fac-hero-ctas {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 8px;
+  }
+  .fac-hero-ctas a {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ── Reduce button padding slightly on small screens ── */
+@media (max-width: 575px) {
+  .btn-hl-primary { padding: 12px 22px; font-size: 14px; }
+  .btn-hl-secondary { padding: 11px 20px; font-size: 14px; }
+  .btn-hl-white { padding: 12px 22px; font-size: 14px; }
+  .btn-hl-outline-white { padding: 11px 20px; font-size: 14px; }
+}
+
+/* ── Navigation mobile collapse: Download App full-width ── */
+@media (max-width: 991px) {
+  .navbar-collapse .d-flex {
+    flex-wrap: wrap;
+  }
+  .navbar-collapse .btn-header-app {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 12px 18px !important;
+  }
+  .hl-nav .nav-link { font-size: 15px; }
+  .hl-nav .dropdown-menu { box-shadow: none; border: 1px solid var(--border); }
+}
+
+/* ── Faculty stats strip: 2-column grid on mobile ── */
+@media (max-width: 767px) {
+  /* In a 2-col Bootstrap grid, border-right alternates */
+  .fac-stat-item { border-right: none; border-bottom: none; }
+  /* Re-apply borders using nth-child targeting */
+  .fac-stats-strip .row .col-6:nth-child(odd) .fac-stat-item {
+    border-right: 1px solid var(--border);
+  }
+  .fac-stats-strip .row .col-6:nth-child(1) .fac-stat-item,
+  .fac-stats-strip .row .col-6:nth-child(2) .fac-stat-item {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 20px;
+  }
+  .fac-stats-strip .row .col-6:nth-child(3) .fac-stat-item,
+  .fac-stats-strip .row .col-6:nth-child(4) .fac-stat-item {
+    padding-top: 20px;
+  }
+  .fac-stat-item .fsi-num { font-size: 26px; }
+}
+
+/* ── Faculty trust grid: reduced padding on mobile ── */
+@media (max-width: 767px) {
+  .fac-trust-item { padding: 22px 14px; }
+  .fac-trust-item .fti-ico { width: 48px; height: 48px; font-size: 18px; }
+  .fac-trust-item h4 { font-size: 14px; }
+  .fac-trust-item p { font-size: 12px; }
+}
+
+/* ── Faculty card: constrain long bios on mobile ── */
+@media (max-width: 767px) {
+  .fac-bio-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 13px;
+  }
+  .fac-card-top { padding: 20px 18px 16px; }
+  .fac-card-body { padding: 16px 18px; gap: 12px; }
+  .fac-card-footer { padding: 14px 18px; }
+  .fac-initials { width: 60px; height: 60px; font-size: 20px; }
+  .fac-team-header { margin-bottom: 32px; }
+}
+
+/* ── Faculty card name: allow 2 lines on very small screens ── */
+@media (max-width: 420px) {
+  .fac-name-block h3 { white-space: normal; font-size: 16px; }
+}
+
+/* ── Testimonial card: min-width for xs ── */
+@media (max-width: 420px) {
+  .testi-card { min-width: calc(100vw - 48px); }
+  .testi-result-num { font-size: 18px; }
+}
+
+/* ── Branch card: better mobile padding ── */
+@media (max-width: 575px) {
+  .branch-card { padding: 24px 18px; }
+}
+
+/* ── Contact cards: improved stacking ── */
+@media (max-width: 575px) {
+  .contact-card { padding: 24px 18px; }
+}
+
+/* ── Breadcrumb: fluid heading ── */
+@media (max-width: 420px) {
+  .hl-breadcrumb h1 { font-size: 22px; }
+  .hl-breadcrumb p { font-size: 14px; }
+}
+
+/* ── Course template inline-style cards: responsive behaviour ── */
+/* why_now card icon always flex-shrink:0, text wraps naturally — no override needed */
+/* Step circles in How It Works: keep min-width */
+@media (max-width: 575px) {
+  .hl-info-box { padding: 16px 18px; }
+  .hl-info-box-orange { padding: 16px 18px; }
+  .curriculum-step { gap: 12px; }
+}
+
+/* ── Footer: compact on xs ── */
+@media (max-width: 575px) {
+  .hl-footer .footer-top { padding: 44px 0 28px; }
+  .hl-footer .footer-desc { font-size: 13px; }
+  .hl-footer .footer-play-btn { width: 100%; justify-content: center; }
+  .hl-footer .footer-bottom { padding: 16px 0; }
+  .hl-footer .footer-bottom .container { text-align: center; }
+  .hl-footer h5 { margin-bottom: 14px; }
+}
+
+/* ── Sticky floater: don't overlap popup on mobile ── */
+@media (max-width: 575px) {
+  .sticky-float-icons { bottom: 16px; right: 12px; }
+  .sticky-float-icons a { width: 46px; height: 46px; font-size: 20px; }
+}
+
+/* ── Comparison table: single column on very small screens ── */
+@media (max-width: 575px) {
+  .compare-wrap { font-size: 12px; }
+  .compare-cell { padding: 12px 14px; }
+  .compare-col-head { padding: 14px 18px; }
+}
+
+/* ── Why section PS grid cards ── */
+@media (max-width: 575px) {
+  .ps-card { border-radius: 12px; }
+  .ps-problem, .ps-solution { padding: 14px 16px 12px; }
+}
+
+/* ── How-it-works steps on xs ── */
+@media (max-width: 420px) {
+  .hw-step { flex: 0 0 100%; }
+}
+
+/* ── App store badge section ── */
+@media (max-width: 575px) {
+  .app-store-badge { width: 100%; justify-content: center; }
+}
+
+/* ── Smooth momentum scrolling on iOS ── */
+.testi-track,
+.hl-nav .dropdown-menu {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ── Focus ring: accessible and stylish ── */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ── Prevent text size adjustment on rotation ── */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* ── Image scaling in hero on mobile ── */
+@media (max-width: 991px) {
+  .hl-hero .hero-img img { max-height: 280px; }
+}
+@media (max-width: 767px) {
+  .hl-hero .hero-img img { max-height: 220px; }
+}
+
+/* ── CTA banner heading: fluid on xs ── */
+@media (max-width: 420px) {
+  .cta-banner h2 { font-size: 22px; }
+  .cta-banner p { font-size: 15px; margin-bottom: 24px; }
+}
+
+/* ── Trust stat numbers: fluid on xs ── */
+@media (max-width: 420px) {
+  .trust-stat .ts-num { font-size: 30px; }
+  .trust-stat .ts-unit { font-size: 18px; }
+}
+
+/* ── Faculty fac-mid-cta heading scaling ── */
+@media (max-width: 575px) {
+  .fac-mid-cta h3 { font-size: 19px; }
+  .fac-mid-cta { padding: 24px 18px; border-radius: 12px; }
+}
+
+/* ── Accordion: readable on xs ── */
+@media (max-width: 575px) {
+  .hl-accordion .accordion-button { font-size: 14px; padding: 14px 16px; }
+  .hl-accordion .accordion-body { font-size: 13px; }
+}
+
+/* ── Section badge: clean on xs ── */
+@media (max-width: 420px) {
+  .section-badge { font-size: 11px; padding: 4px 12px; }
 }

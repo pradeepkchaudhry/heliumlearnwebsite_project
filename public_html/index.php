@@ -292,7 +292,7 @@ require "header.php";
           <div class="testi-student">
             <div class="testi-avatar" aria-label="Student A">A</div>
             <div class="testi-meta">
-              <h4 itemprop="author">Aryan S.</h4>
+              <h4 itemprop="author">Aryan Sharma</h4>
               <span>IIT-JEE · Batch 2025</span>
             </div>
           </div>
@@ -307,6 +307,7 @@ require "header.php";
             <span class="testi-chip">Behaviour Analysis</span>
             <span class="testi-chip">Expert Faculty</span>
             <span class="testi-chip">Test Series</span>
+            <span class="testi-chip">Kota's Style Pedagogy</span>
           </div>
         </article>
 
@@ -317,7 +318,7 @@ require "header.php";
           <div class="testi-student">
             <div class="testi-avatar" aria-label="Student R">R</div>
             <div class="testi-meta">
-              <h4 itemprop="author">Rahul M.</h4>
+              <h4 itemprop="author">Rahul Maurya</h4>
               <span>IIT-JEE · Batch 2025</span>
             </div>
           </div>
@@ -332,6 +333,7 @@ require "header.php";
             <span class="testi-chip">Weekly Mentorship</span>
             <span class="testi-chip">Test Series</span>
             <span class="testi-chip">Behaviour Analysis</span>
+            <span class="testi-chip">Time Management</span>
           </div>
         </article>
 
@@ -342,7 +344,7 @@ require "header.php";
           <div class="testi-student">
             <div class="testi-avatar" aria-label="Student P">P</div>
             <div class="testi-meta">
-              <h4 itemprop="author">Priya V.</h4>
+              <h4 itemprop="author">Priya Srivastava</h4>
               <span>IIT-JEE · Batch 2024</span>
             </div>
           </div>
@@ -354,9 +356,10 @@ require "header.php";
             "Helium ka test series bilkul actual JEE pattern pe tha. Har mock ke baad detailed analysis milti thi — weak topics, time management, accuracy sab dikhta tha. Ek saal mein JEE Mains rank 8000+ se 1021 aa gayi. Behaviour Insights ne game change kiya mere liye."
           </blockquote>
           <div class="testi-chips">
-            <span class="testi-chip">Test Series</span>
+            <span class="testi-chip">All India Test Series</span>
             <span class="testi-chip">Behaviour Analysis</span>
             <span class="testi-chip">Daily Practice</span>
+            <span class="testi-chip">Learning Strategy</span>
           </div>
         </article>
 
@@ -367,7 +370,7 @@ require "header.php";
           <div class="testi-student">
             <div class="testi-avatar" aria-label="Student S">S</div>
             <div class="testi-meta">
-              <h4 itemprop="author">Sneha P.</h4>
+              <h4 itemprop="author">Sneha Patel</h4>
               <span>NEET-UG · Batch 2025</span>
             </div>
           </div>
@@ -381,7 +384,8 @@ require "header.php";
           <div class="testi-chips">
             <span class="testi-chip">Expert Faculty</span>
             <span class="testi-chip">Behaviour Analysis</span>
-            <span class="testi-chip">NEET Test Series</span>
+            <span class="testi-chip">Structured Content</span>
+            <span class="testi-chip">Doubt Solving</span>
           </div>
         </article>
 
@@ -392,7 +396,7 @@ require "header.php";
           <div class="testi-student">
             <div class="testi-avatar" aria-label="Student M">M</div>
             <div class="testi-meta">
-              <h4 itemprop="author">Mohit K.</h4>
+              <h4 itemprop="author">Mohit Singh</h4>
               <span>NEET-UG · Batch 2024</span>
             </div>
           </div>
@@ -405,8 +409,9 @@ require "header.php";
           </blockquote>
           <div class="testi-chips">
             <span class="testi-chip">Weekly Mentorship</span>
-            <span class="testi-chip">Daily Practice</span>
             <span class="testi-chip">Live Classes</span>
+            <span class="testi-chip">Daily Practice</span>
+            <span class="testi-chip">Learning Process</span>
           </div>
         </article>
 
@@ -417,7 +422,7 @@ require "header.php";
           <div class="testi-student">
             <div class="testi-avatar" aria-label="Student A">A</div>
             <div class="testi-meta">
-              <h4 itemprop="author">Ananya R.</h4>
+              <h4 itemprop="author">Ananya Rai</h4>
               <span>NEET-UG · Batch 2024</span>
             </div>
           </div>
@@ -432,6 +437,7 @@ require "header.php";
             <span class="testi-chip">Behaviour Analysis</span>
             <span class="testi-chip">Test Series</span>
             <span class="testi-chip">Expert Faculty</span>
+            <span class="testi-chip">Learning Strategy</span>
           </div>
         </article>
 
@@ -442,7 +448,7 @@ require "header.php";
           <div class="testi-student">
             <div class="testi-avatar" aria-label="Student K">K</div>
             <div class="testi-meta">
-              <h4 itemprop="author">Kunal T.</h4>
+              <h4 itemprop="author">Kunal Tyagi</h4>
               <span>Class 10th · Batch 2025</span>
             </div>
           </div>
@@ -457,6 +463,7 @@ require "header.php";
             <span class="testi-chip">Live Classes</span>
             <span class="testi-chip">Doubt Solving</span>
             <span class="testi-chip">Daily Practice</span>
+            <span class="testi-chip">Structured Content</span>
           </div>
         </article>
 
@@ -467,7 +474,7 @@ require "header.php";
           <div class="testi-student">
             <div class="testi-avatar" aria-label="Student D">D</div>
             <div class="testi-meta">
-              <h4 itemprop="author">Divya S.</h4>
+              <h4 itemprop="author">Divya Joshi</h4>
               <span>Class 10th · Batch 2025</span>
             </div>
           </div>
@@ -482,6 +489,7 @@ require "header.php";
             <span class="testi-chip">Weekly Mentorship</span>
             <span class="testi-chip">Test Series</span>
             <span class="testi-chip">Structured Content</span>
+            <span class="testi-chip">Learning Process</span>
           </div>
         </article>
 
@@ -492,7 +500,7 @@ require "header.php";
           <div class="testi-student">
             <div class="testi-avatar" aria-label="Student R">R</div>
             <div class="testi-meta">
-              <h4 itemprop="author">Rohan G.</h4>
+              <h4 itemprop="author">Rohan Gupta</h4>
               <span>Class 12th · Batch 2025</span>
             </div>
           </div>
@@ -506,7 +514,8 @@ require "header.php";
           <div class="testi-chips">
             <span class="testi-chip">Behaviour Analysis</span>
             <span class="testi-chip">Expert Faculty</span>
-            <span class="testi-chip">Test Series</span>
+            <span class="testi-chip">All India Test Series</span>
+            <span class="testi-chip">AI-Powered Perf. Copilot</span>
           </div>
         </article>
 
@@ -517,7 +526,7 @@ require "header.php";
           <div class="testi-student">
             <div class="testi-avatar" aria-label="Student N">N</div>
             <div class="testi-meta">
-              <h4 itemprop="author">Nishi A.</h4>
+              <h4 itemprop="author">Nishi Chaudhary</h4>
               <span>Class 12th · Batch 2024</span>
             </div>
           </div>
@@ -532,6 +541,7 @@ require "header.php";
             <span class="testi-chip">Weekly Mentorship</span>
             <span class="testi-chip">Expert Faculty</span>
             <span class="testi-chip">Behaviour Analysis</span>
+            <span class="testi-chip">AI-Powered Perf. Copilot</span>
           </div>
         </article>
 

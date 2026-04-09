@@ -501,19 +501,21 @@ ul { margin: 0; padding: 0; }
 .testi-card.tc-neet { border-top-color: #059669; }
 .testi-card.tc-board { border-top-color: var(--orange); }
 
-/* Verified badge */
+/* Verified badge — uniform on all card types */
 .testi-verified {
   position: absolute;
-  top: 20px; right: 20px;
-  display: flex; align-items: center; gap: 4px;
-  font-size: 11px; font-weight: 600;
+  top: 16px; right: 16px;
+  display: inline-flex; align-items: center; gap: 3px;
+  font-size: 9.5px; font-weight: 700;
+  letter-spacing: .4px; text-transform: uppercase;
   color: #059669;
   background: #f0fdf4;
-  padding: 3px 10px;
-  border-radius: 30px;
+  padding: 3px 9px;
+  border-radius: 20px;
   border: 1px solid #bbf7d0;
+  white-space: nowrap;
 }
-.testi-verified i { font-size: 10px; }
+.testi-verified i { font-size: 9px; }
 
 /* Exam badge */
 .testi-exam {
@@ -584,18 +586,17 @@ ul { margin: 0; padding: 0; }
 .testi-card.tc-neet .testi-quote { border-left-color: #bbf7d0; }
 .testi-card.tc-board .testi-quote { border-left-color: #fed7aa; }
 
-/* Chips */
-.testi-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+/* Chips — uniform across all card types */
+.testi-chips { display: flex; flex-wrap: wrap; gap: 5px; }
 .testi-chip {
-  font-size: 10px; font-weight: 600;
-  text-transform: uppercase; letter-spacing: .5px;
-  padding: 3px 10px;
+  font-size: 9.5px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .45px;
+  padding: 3px 9px;
   border-radius: 20px;
   background: var(--blue-light); color: var(--primary);
   border: 1px solid #bfdbfe;
+  white-space: nowrap;
 }
-.testi-card.tc-neet .testi-chip { background: #f0fdf4; color: #059669; border-color: #bbf7d0; }
-.testi-card.tc-board .testi-chip { background: #fff3e0; color: var(--orange); border-color: #fed7aa; }
 
 /* Navigation */
 .testi-nav {

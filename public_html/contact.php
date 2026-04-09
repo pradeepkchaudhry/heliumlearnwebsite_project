@@ -47,7 +47,60 @@ require "header.php";
   </div>
 </div>
 
-<!-- Contact Cards -->
+<!-- 1. ENQUIRY FORM -->
+<section class="hl-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-start mb-4">
+          <span class="section-badge">Enquiry Form</span>
+          <h2>Send Us a Message</h2>
+          <p>Fill in your details and we'll get back to you within a few hours.</p>
+        </div>
+        <form class="hl-form" action="mail.php" method="POST" onsubmit="gtag('event','counselling_submit',{source:'contact-form'})">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="name">Full Name *</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="col-md-6">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="+91 XXXXXXXXXX" required>
+            </div>
+            <div class="col-md-6">
+              <label for="email">Email Address</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="your@email.com">
+            </div>
+            <div class="col-md-6">
+              <label for="course">Course Interested In</label>
+              <select class="form-select" id="course" name="course">
+                <option value="">Select a course</option>
+                <option>9th Foundation</option>
+                <option>10th Foundation</option>
+                <option>11th Foundation</option>
+                <option>12th Foundation</option>
+                <option>IIT-JEE</option>
+                <option>NEET-UG</option>
+                <option>Not Sure</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell us about your preparation goals or any questions you have..."></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn-hl-primary">
+                <i class="fa fa-paper-plane"></i> Send Enquiry
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. GET IN TOUCH -->
 <section class="hl-section hl-bg-light">
   <div class="container">
     <div class="section-title">
@@ -97,59 +150,16 @@ require "header.php";
   </div>
 </section>
 
-<!-- Form + Info -->
+<!-- 3. MORE WAYS TO REACH US -->
 <section class="hl-section">
   <div class="container">
-    <div class="row g-5">
-      <!-- Form -->
-      <div class="col-lg-7">
-        <span class="section-badge">Enquiry Form</span>
-        <h2 class="mb-4">Send Us a Message</h2>
-        <form class="hl-form" action="mail.php" method="POST" onsubmit="gtag('event','counselling_submit',{source:'contact-form'})">
-          <div class="row g-3">
-            <div class="col-md-6">
-              <label for="name">Full Name *</label>
-              <input type="text" class="form-control" id="name" name="name" placeholder="Your full name" required>
-            </div>
-            <div class="col-md-6">
-              <label for="phone">Phone Number *</label>
-              <input type="tel" class="form-control" id="phone" name="phone" placeholder="+91 XXXXXXXXXX" required>
-            </div>
-            <div class="col-md-6">
-              <label for="email">Email Address</label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="your@email.com">
-            </div>
-            <div class="col-md-6">
-              <label for="course">Course Interested In</label>
-              <select class="form-select" id="course" name="course">
-                <option value="">Select a course</option>
-                <option>9th Foundation</option>
-                <option>10th Foundation</option>
-                <option>11th Foundation</option>
-                <option>12th Foundation</option>
-                <option>IIT-JEE</option>
-                <option>NEET-UG</option>
-                <option>Not Sure</option>
-              </select>
-            </div>
-            <div class="col-12">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell us about your preparation goals or any questions you have..."></textarea>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn-hl-primary">
-                <i class="fa fa-paper-plane"></i> Send Enquiry
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-
-      <!-- Info -->
-      <div class="col-lg-5">
-        <span class="section-badge section-badge-orange">More Ways to Reach Us</span>
-        <h3 class="mb-4">We Respond Fast</h3>
-        <div class="branch-card mb-4">
+    <div class="section-title">
+      <span class="section-badge section-badge-orange">More Ways to Reach Us</span>
+      <h2>We Respond <span>Fast</span></h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="branch-card h-100">
           <div class="bc-badge">Online</div>
           <h5 class="mb-3">Helium Learn (Online)</h5>
           <div class="branch-info-item"><i class="fa fa-globe"></i><span>India-wide online learning platform</span></div>
@@ -158,14 +168,15 @@ require "header.php";
           <div class="branch-info-item"><i class="fa fa-envelope"></i><a href="mailto:support@heliumlearn.com">support@heliumlearn.com</a></div>
           <div class="branch-info-item"><i class="fab fa-whatsapp"></i><a href="https://rb.gy/jlgzkq" target="_blank" rel="noopener">Join WhatsApp Channel</a></div>
         </div>
-        <div class="hl-info-box">
+      </div>
+      <div class="col-lg-6">
+        <div class="hl-info-box h-100" style="display:flex;flex-direction:column;justify-content:center;">
           <h5 class="mb-2" style="color:var(--primary);"><i class="fa fa-map-marker-alt me-2"></i>Azamgarh Centre</h5>
-          <p style="font-size:14px;">We have a physical hybrid learning centre in Azamgarh, U.P. for local students.</p>
+          <p style="font-size:14px;">We have a physical hybrid learning centre in Azamgarh, U.P. for local students who want the best of online and in-person coaching.</p>
           <a href="/azamgarh" class="btn-hl-secondary mt-3 d-inline-flex" style="font-size:13px;padding:8px 16px;" onclick="gtag('event','branch_click',{branch:'azamgarh'})">
             View Azamgarh Centre <i class="fa fa-arrow-right ms-1"></i>
           </a>
         </div>
-
       </div>
     </div>
   </div>
